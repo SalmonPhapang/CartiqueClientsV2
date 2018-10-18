@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">426791202627-d91fntlqs1t3lqcb5ev1fgjea7d7o8o7.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://cartique-1516308965713.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">426791202627</string>
+    <string name="google_api_key" translatable="false">AIzaSyD7bBc0mwjX_y9H76B0rCTqolY36AseFas</string>
+    <string name="google_app_id" translatable="false">1:426791202627:android:849536b041d2aff2</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyD7bBc0mwjX_y9H76B0rCTqolY36AseFas</string>
+    <string name="google_storage_bucket" translatable="false">cartique-1516308965713.appspot.com</string>
+    <string name="project_id" translatable="false">cartique-1516308965713</string>
+</resources>

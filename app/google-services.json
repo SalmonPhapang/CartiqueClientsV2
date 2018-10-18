@@ -1,0 +1,135 @@
+{
+  "project_info": {
+    "project_number": "426791202627",
+    "firebase_url": "https://cartique-1516308965713.firebaseio.com",
+    "project_id": "cartique-1516308965713",
+    "storage_bucket": "cartique-1516308965713.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426791202627:android:7d2cbae5d1c8ace4",
+        "android_client_info": {
+          "package_name": "car.com.cartique"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "426791202627-d91fntlqs1t3lqcb5ev1fgjea7d7o8o7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7bBc0mwjX_y9H76B0rCTqolY36AseFas"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426791202627:android:849536b041d2aff2",
+        "android_client_info": {
+          "package_name": "car.com.cartique.client"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "426791202627-d91fntlqs1t3lqcb5ev1fgjea7d7o8o7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7bBc0mwjX_y9H76B0rCTqolY36AseFas"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426791202627:android:49d8cb5e5624ee19",
+        "android_client_info": {
+          "package_name": "com.car.cartique"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "426791202627-d91fntlqs1t3lqcb5ev1fgjea7d7o8o7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7bBc0mwjX_y9H76B0rCTqolY36AseFas"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426791202627:android:7f2ca0abe53f2259",
+        "android_client_info": {
+          "package_name": "com.car.cartique_clients"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "426791202627-d91fntlqs1t3lqcb5ev1fgjea7d7o8o7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7bBc0mwjX_y9H76B0rCTqolY36AseFas"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

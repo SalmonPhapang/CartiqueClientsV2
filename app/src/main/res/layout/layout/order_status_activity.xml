@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:background="@color/colorPrimary"
+        app:titleTextColor="@android:color/white" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/txtstatusClientName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColor="@color/bg_register"
+            android:fontFamily="sans-serif-medium"/>
+        <TextView
+            android:id="@+id/txtstatusOrderNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/bg_register"
+            android:text="#Order Number"/>
+    </LinearLayout>
+<com.transferwise.sequencelayout.SequenceLayout
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_250sdp"
+    android:layout_marginTop="@dimen/_10sdp"
+    app:progressForegroundColor="@color/colorAccent"
+    app:progressBackgroundColor="@color/colorPrimaryDark">
+
+    <com.transferwise.sequencelayout.SequenceStep
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:anchor="30 Nov"
+        app:title="Initiated" />
+
+    <com.transferwise.sequencelayout.SequenceStep
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:anchor="Today"
+        app:title="Preparation" />
+
+    <com.transferwise.sequencelayout.SequenceStep
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="In Progress" />
+
+    <com.transferwise.sequencelayout.SequenceStep
+        android:id="@+id/statusDoneSequenceStep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:anchor="2 Dec"
+        app:title="Done"/>
+</com.transferwise.sequencelayout.SequenceLayout>
+</LinearLayout>

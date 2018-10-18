@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:background="@color/colorPrimary"
+        app:titleTextColor="@android:color/white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtstatusClientName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="Name"
+            android:textColor="@color/bg_register" />
+
+        <TextView
+            android:id="@+id/txtstatusOrderNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="#Order Number"
+            android:textColor="@color/bg_register" />
+    </LinearLayout>
+
+    <com.transferwise.sequencelayout.SequenceLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_250sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        app:progressBackgroundColor="@color/colorPrimaryDark"
+        app:progressForegroundColor="@color/colorAccent">
+
+        <com.transferwise.sequencelayout.SequenceStep
+            android:id="@+id/statusInitialSequenceStep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:anchor="30 Nov"
+            app:title="Initiated" />
+
+        <com.transferwise.sequencelayout.SequenceStep
+            android:id="@+id/statusPreparationSequenceStep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:anchor="Today"
+            app:title="Preparation" />
+
+        <com.transferwise.sequencelayout.SequenceStep
+            android:id="@+id/statusInProgressSequenceStep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="In Progress" />
+
+        <com.transferwise.sequencelayout.SequenceStep
+            android:id="@+id/statusDoneSequenceStep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:anchor="2 Dec"
+            app:title="Done" />
+    </com.transferwise.sequencelayout.SequenceLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/txtsetStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Change Status : "
+            android:textSize="@dimen/_13sdp"
+            android:textColor="@color/bg_register" />
+
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+       <!-- <car.com.cartique.client.custom.CustomSpinner
+            android:id="@+id/spinner"
+            style="@style/Widget.AppCompat.Spinner"
+            android:layout_width="wrap_content"
+            android:dropDownWidth="wrap_content"
+            android:layout_height="?attr/dropdownListPreferredItemHeight"
+            android:dropDownVerticalOffset="?attr/dropdownListPreferredItemHeight"
+            android:background="@drawable/spinner_bg"
+            android:popupBackground="@android:color/white"
+            android:paddingEnd="@dimen/_14sdp"
+            android:stateListAnimator="@drawable/spinner_sla"
+            android:popupElevation="@dimen/_3sdp" />-->
+    </LinearLayout>
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_setStatus"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_12sdp"
+        android:background="@color/colorAccent"
+        android:text="@string/btn_setStatus"
+        android:textColor="@android:color/white" />
+</LinearLayout>

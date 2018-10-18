@@ -1,0 +1,777 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:2:1-158:12
+INJECTED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:2:1-158:12
+INJECTED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:2:1-158:12
+INJECTED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:2:1-158:12
+MERGED from [:material-Calender] C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\material-Calender\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-17:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\f031d89d71bcbcd148c3bd63c2bfea63\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.clans:fab:1.6.4] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\fab-1.6.4.aar\06d9918aef53e11bd18b0a9f8c424679\AndroidManifest.xml:2:1-14:12
+MERGED from [com.github.daniel-stoneuk:material-about-library:2.3.0] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\material-about-library-2.3.0.aar\4be5e9c06c30263719c876f657de64bc\AndroidManifest.xml:2:1-11:12
+MERGED from [com.schibstedspain.android:leku:5.0.0] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\leku-5.0.0.aar\fb8637e168bf1b29e37ef280238ab2a3\AndroidManifest.xml:2:1-34:12
+MERGED from [com.android.support:design:27.1.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\39a218ac306eb326b495899b8f311186\AndroidManifest.xml:17:1-22:12
+MERGED from [com.firebaseui:firebase-ui-storage:4.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-ui-storage-4.0.1.aar\54e703468cfd8bda98ae5ee0ec28b7b9\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-places:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-places-15.0.1.aar\eef6564c9ea1ba33a0e7dc0dd61b0e76\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\90a6381d5d4ab44e4b6c7f083124d6af\AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.firebase:firebase-database:16.0.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-database-16.0.2.aar\08f99d67df51c88ada7d0ff4d538d529\AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-auth:16.0.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.3.aar\82c2892a66077cedc33b70c0ea21e96a\AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.firebase:firebase-messaging:17.3.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.2.aar\bd124cd4a4d761647ab74006a19b1a3a\AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-flags-15.0.1.aar\61929f573dcf56af90c96582cd1d090f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-16.0.0.aar\1bf52e831bdea401a8de1b0d2f825509\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-location-15.0.1.aar\9b255e7e28059a88599232aa3c2f349d\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-storage:16.0.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-storage-16.0.2.aar\784ee87db96e0a0e1ae1b78fab664956\AndroidManifest.xml:15:1-26:12
+MERGED from [com.google.firebase:firebase-core:16.0.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.3.aar\e16cd24ee08ebc578bc4567f77c82497\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.1.aar\58c86040a1b0a284ffe0c140411951fd\AndroidManifest.xml:17:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\e121411ff6ae8694e69ca046fe968b56\AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.0.1.aar\7a77a85dc6a4bf8ed29bb2a014c35c28\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.1.aar\f4667be0cfa122f23334260e419e5d10\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.2.aar\32ec4084b013479521643c6a77f4b70d\AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.0.aar\3a5c53d675d95b740b98c0448762072e\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\306ff066f6b976b3495879e48672e514\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:16.0.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.2.aar\4c69dd2c69d3c1bcc7fe25fc86dd9680\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\445512d54b493b5187ee0a4d42898042\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-database-collection:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-database-collection-15.0.1.aar\6f18dfd58e2656df05bb0e04e91a0e2d\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-stats-15.0.1.aar\177d1bbfff344fa7a8330db8829d148f\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-15.0.1.aar\dad9c0d66ca264d7b560a156af70a626\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\0ef00550d646c1416a938a2091d778ee\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.0] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.0.aar\b28eb7257829980d6b8fb78d65a1d949\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\167ca69b094889a0bad15261f58cef72\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\602d2552dd2572a4c22b6a0052ae302f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.mikepenz:aboutlibraries:6.1.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\aboutlibraries-6.1.1.aar\e8a676b177bb49da9a4328864a0e334b\AndroidManifest.xml:2:1-15:12
+MERGED from [com.github.transferwise:sequence-layout:1.0.7] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\sequence-layout-1.0.7.aar\44687726c96115f0ead3f3f9492192e9\AndroidManifest.xml:2:1-11:12
+MERGED from [com.mikepenz:iconics-core:3.0.4] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\iconics-core-3.0.4.aar\aea8d6d385f208de44b5173a35c34e0e\AndroidManifest.xml:2:1-11:12
+MERGED from [com.mikepenz:fastadapter:3.2.7] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\fastadapter-3.2.7.aar\181460fa87370e11746addbead29536a\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\c63d4e92752668f7626700c31844a77b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\23cb21ff4a2f188393a6bbd630028a42\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\81674f517667366196c0061bd343e721\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:palette-v7:27.1.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\palette-v7-27.1.1.aar\91a05a861760bd9338cf8a221eac7c73\AndroidManifest.xml:17:1-22:12
+MERGED from [com.intuit.sdp:sdp-android:1.0.5] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\sdp-android-1.0.5.aar\7f008b929c5412d4fb4e441117a4afbf\AndroidManifest.xml:2:1-11:12
+MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\circleimageview-2.0.0.aar\99e3c6858f10da50299991ae39b11b3c\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.traex.rippleeffect:library:1.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\library-1.3.aar\9e3485fd4e78f45ca9d612de4c8ecbd3\AndroidManifest.xml:2:1-14:12
+MERGED from [com.github.bhargavms:DotLoader:1.1.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\DotLoader-1.1.1.aar\548acd7d1bc6a860a36d4064e7d4c9e9\AndroidManifest.xml:2:1-16:12
+MERGED from [com.jaredrummler:material-spinner:1.2.5] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\material-spinner-1.2.5.aar\0c74225a925894a5bb3c2f6e1027b293\AndroidManifest.xml:2:1-10:12
+MERGED from [com.github.bumptech.glide:glide:4.7.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\glide-4.7.1.aar\12f41d00eba277968e70c691c886d181\AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\a0ecda7eb331f3135b20d64685730f81\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\91ee4ef01dfde78416e0b6f5d708fecc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\423d3d536e9ca39e7c377914f4f5e22f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\a453b3bb62b6b8d66ca0b4d2662f8abf\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\6087e464b4b7193f88d97f77b214048c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\93760d9a20eecd50439cdd0dfa3bbe0a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\ec7e004f4951fe6bbbef78f221a8aee6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\bb3e578b1063c851a2e398a264fd0f16\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.7.1.aar\662fb6ad863409b4ba7a67d3545b0758\AndroidManifest.xml:2:1-11:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\d4c774baee59e22d64826722e20a8e70\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\271d11de251be546c07cd2b843bb3d11\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\272cbedbe9062d8a32d8a6601d84e2e0\AndroidManifest.xml:17:1-22:12
+MERGED from [pl.charmas.android:android-reactive-location2:2.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\android-reactive-location2-2.1.aar\3a58195e862ad28809c00926758ccb95\AndroidManifest.xml:2:1-12:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\rxandroid-2.0.2.aar\082a27921e3de0606275a7f2c41aa2cc\AndroidManifest.xml:15:1-21:12
+MERGED from [nl.littlerobots.rxlint:rxlint:1.6.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\rxlint-1.6.1.aar\9f7c713e50b2701929bb395677713bed\AndroidManifest.xml:2:1-13:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\f7d3ab099ec341076893154d2cef4227\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.2.aar\00da2dded1e7b3a6a03473d6db0e67a7\AndroidManifest.xml:2:1-9:12
+INJECTED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:2:1-158:12
+INJECTED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:2:1-158:12
+INJECTED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:2:1-158:12
+	package
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:3:5-38
+		INJECTED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:2:1-158:12
+		INJECTED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:2:1-158:12
+		INJECTED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:2:11-69
+uses-feature#android.hardware.camera
+ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:5:5-60
+	android:name
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:5:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:6:5-8:36
+	android:required
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:8:9-33
+	android:name
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:7:9-57
+uses-feature#android.hardware.location.network
+ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:9:5-11:36
+	android:required
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:11:9-33
+	android:name
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:10:9-57
+uses-feature#android.hardware.location.gps
+ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:12:5-14:36
+	android:required
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:14:9-33
+	android:name
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:13:9-53
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:16:5-65
+	android:name
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:16:22-62
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:17:5-79
+MERGED from [com.schibstedspain.android:leku:5.0.0] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\leku-5.0.0.aar\fb8637e168bf1b29e37ef280238ab2a3\AndroidManifest.xml:27:5-79
+MERGED from [com.schibstedspain.android:leku:5.0.0] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\leku-5.0.0.aar\fb8637e168bf1b29e37ef280238ab2a3\AndroidManifest.xml:27:5-79
+	android:name
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:17:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:18:5-81
+MERGED from [com.schibstedspain.android:leku:5.0.0] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\leku-5.0.0.aar\fb8637e168bf1b29e37ef280238ab2a3\AndroidManifest.xml:26:5-81
+MERGED from [com.schibstedspain.android:leku:5.0.0] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\leku-5.0.0.aar\fb8637e168bf1b29e37ef280238ab2a3\AndroidManifest.xml:26:5-81
+	android:name
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:18:22-78
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:19:5-67
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\90a6381d5d4ab44e4b6c7f083124d6af\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\90a6381d5d4ab44e4b6c7f083124d6af\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-storage:16.0.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-storage-16.0.2.aar\784ee87db96e0a0e1ae1b78fab664956\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-storage:16.0.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-storage-16.0.2.aar\784ee87db96e0a0e1ae1b78fab664956\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.1.aar\58c86040a1b0a284ffe0c140411951fd\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.1.aar\58c86040a1b0a284ffe0c140411951fd\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\e121411ff6ae8694e69ca046fe968b56\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\e121411ff6ae8694e69ca046fe968b56\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.1.aar\f4667be0cfa122f23334260e419e5d10\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.1.aar\f4667be0cfa122f23334260e419e5d10\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.2.aar\32ec4084b013479521643c6a77f4b70d\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.2.aar\32ec4084b013479521643c6a77f4b70d\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:19:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:20:5-81
+	android:name
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:20:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:21:5-80
+	android:name
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:21:22-77
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:22:5-66
+	android:name
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:22:22-63
+application
+ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:24:5-156:19
+MERGED from [:material-Calender] C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\material-Calender\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:5-15:19
+MERGED from [:material-Calender] C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\material-Calender\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\f031d89d71bcbcd148c3bd63c2bfea63\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\f031d89d71bcbcd148c3bd63c2bfea63\AndroidManifest.xml:9:5-20
+MERGED from [com.github.clans:fab:1.6.4] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\fab-1.6.4.aar\06d9918aef53e11bd18b0a9f8c424679\AndroidManifest.xml:12:5-20
+MERGED from [com.github.clans:fab:1.6.4] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\fab-1.6.4.aar\06d9918aef53e11bd18b0a9f8c424679\AndroidManifest.xml:12:5-20
+MERGED from [com.schibstedspain.android:leku:5.0.0] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\leku-5.0.0.aar\fb8637e168bf1b29e37ef280238ab2a3\AndroidManifest.xml:29:5-32:19
+MERGED from [com.schibstedspain.android:leku:5.0.0] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\leku-5.0.0.aar\fb8637e168bf1b29e37ef280238ab2a3\AndroidManifest.xml:29:5-32:19
+MERGED from [com.google.android.gms:play-services-places:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-places-15.0.1.aar\eef6564c9ea1ba33a0e7dc0dd61b0e76\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-places-15.0.1.aar\eef6564c9ea1ba33a0e7dc0dd61b0e76\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\90a6381d5d4ab44e4b6c7f083124d6af\AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\90a6381d5d4ab44e4b6c7f083124d6af\AndroidManifest.xml:30:5-20
+MERGED from [com.google.firebase:firebase-auth:16.0.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.3.aar\82c2892a66077cedc33b70c0ea21e96a\AndroidManifest.xml:22:5-36:19
+MERGED from [com.google.firebase:firebase-auth:16.0.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.3.aar\82c2892a66077cedc33b70c0ea21e96a\AndroidManifest.xml:22:5-36:19
+MERGED from [com.google.firebase:firebase-messaging:17.3.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.2.aar\bd124cd4a4d761647ab74006a19b1a3a\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:17.3.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.2.aar\bd124cd4a4d761647ab74006a19b1a3a\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-16.0.0.aar\1bf52e831bdea401a8de1b0d2f825509\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-16.0.0.aar\1bf52e831bdea401a8de1b0d2f825509\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-location-15.0.1.aar\9b255e7e28059a88599232aa3c2f349d\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-location-15.0.1.aar\9b255e7e28059a88599232aa3c2f349d\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.3.aar\e16cd24ee08ebc578bc4567f77c82497\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.3.aar\e16cd24ee08ebc578bc4567f77c82497\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.1.aar\58c86040a1b0a284ffe0c140411951fd\AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.1.aar\58c86040a1b0a284ffe0c140411951fd\AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\e121411ff6ae8694e69ca046fe968b56\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\e121411ff6ae8694e69ca046fe968b56\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.0.1.aar\7a77a85dc6a4bf8ed29bb2a014c35c28\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.0.1.aar\7a77a85dc6a4bf8ed29bb2a014c35c28\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.1.aar\f4667be0cfa122f23334260e419e5d10\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.1.aar\f4667be0cfa122f23334260e419e5d10\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.2.aar\32ec4084b013479521643c6a77f4b70d\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.2.aar\32ec4084b013479521643c6a77f4b70d\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.0.aar\3a5c53d675d95b740b98c0448762072e\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.0.aar\3a5c53d675d95b740b98c0448762072e\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\306ff066f6b976b3495879e48672e514\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\306ff066f6b976b3495879e48672e514\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:16.0.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.2.aar\4c69dd2c69d3c1bcc7fe25fc86dd9680\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.0.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.2.aar\4c69dd2c69d3c1bcc7fe25fc86dd9680\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\445512d54b493b5187ee0a4d42898042\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\445512d54b493b5187ee0a4d42898042\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-stats-15.0.1.aar\177d1bbfff344fa7a8330db8829d148f\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-stats-15.0.1.aar\177d1bbfff344fa7a8330db8829d148f\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-15.0.1.aar\dad9c0d66ca264d7b560a156af70a626\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-15.0.1.aar\dad9c0d66ca264d7b560a156af70a626\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\0ef00550d646c1416a938a2091d778ee\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\0ef00550d646c1416a938a2091d778ee\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.0] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.0.aar\b28eb7257829980d6b8fb78d65a1d949\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.0] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.0.aar\b28eb7257829980d6b8fb78d65a1d949\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\167ca69b094889a0bad15261f58cef72\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\167ca69b094889a0bad15261f58cef72\AndroidManifest.xml:22:5-26:19
+MERGED from [com.mikepenz:aboutlibraries:6.1.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\aboutlibraries-6.1.1.aar\e8a676b177bb49da9a4328864a0e334b\AndroidManifest.xml:11:5-13:19
+MERGED from [com.mikepenz:aboutlibraries:6.1.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\aboutlibraries-6.1.1.aar\e8a676b177bb49da9a4328864a0e334b\AndroidManifest.xml:11:5-13:19
+MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\circleimageview-2.0.0.aar\99e3c6858f10da50299991ae39b11b3c\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\circleimageview-2.0.0.aar\99e3c6858f10da50299991ae39b11b3c\AndroidManifest.xml:9:5-20
+MERGED from [com.github.traex.rippleeffect:library:1.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\library-1.3.aar\9e3485fd4e78f45ca9d612de4c8ecbd3\AndroidManifest.xml:12:5-20
+MERGED from [com.github.traex.rippleeffect:library:1.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\library-1.3.aar\9e3485fd4e78f45ca9d612de4c8ecbd3\AndroidManifest.xml:12:5-20
+MERGED from [com.github.bhargavms:DotLoader:1.1.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\DotLoader-1.1.1.aar\548acd7d1bc6a860a36d4064e7d4c9e9\AndroidManifest.xml:11:5-14:19
+MERGED from [com.github.bhargavms:DotLoader:1.1.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\DotLoader-1.1.1.aar\548acd7d1bc6a860a36d4064e7d4c9e9\AndroidManifest.xml:11:5-14:19
+MERGED from [com.github.bumptech.glide:glide:4.7.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\glide-4.7.1.aar\12f41d00eba277968e70c691c886d181\AndroidManifest.xml:11:5-20
+MERGED from [com.github.bumptech.glide:glide:4.7.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\glide-4.7.1.aar\12f41d00eba277968e70c691c886d181\AndroidManifest.xml:11:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.7.1.aar\662fb6ad863409b4ba7a67d3545b0758\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.7.1.aar\662fb6ad863409b4ba7a67d3545b0758\AndroidManifest.xml:9:5-20
+MERGED from [pl.charmas.android:android-reactive-location2:2.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\android-reactive-location2-2.1.aar\3a58195e862ad28809c00926758ccb95\AndroidManifest.xml:10:5-20
+MERGED from [pl.charmas.android:android-reactive-location2:2.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\android-reactive-location2-2.1.aar\3a58195e862ad28809c00926758ccb95\AndroidManifest.xml:10:5-20
+MERGED from [nl.littlerobots.rxlint:rxlint:1.6.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\rxlint-1.6.1.aar\9f7c713e50b2701929bb395677713bed\AndroidManifest.xml:11:5-20
+MERGED from [nl.littlerobots.rxlint:rxlint:1.6.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\rxlint-1.6.1.aar\9f7c713e50b2701929bb395677713bed\AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.2.aar\00da2dded1e7b3a6a03473d6db0e67a7\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.2.aar\00da2dded1e7b3a6a03473d6db0e67a7\AndroidManifest.xml:7:5-20
+	android:supportsRtl
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:30:9-35
+	android:label
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:28:9-41
+	android:roundIcon
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:29:9-54
+	android:icon
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:27:9-43
+	android:allowBackup
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:26:9-35
+	android:theme
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:31:9-40
+	android:name
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:25:9-42
+receiver#car.com.cartique.client.service.MyAlarmReceiver
+ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:32:9-34:40
+	android:process
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:34:13-38
+	android:name
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:33:13-52
+service#car.com.cartique.client.service.MyTestService
+ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:37:13-50
+activity#car.com.cartique.client.LoginActivity
+ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:40:9-46:20
+	android:name
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:40:19-48
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:41:13-45:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:42:17-69
+	android:name
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:42:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:44:17-77
+	android:name
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:44:27-74
+activity#car.com.cartique.client.SearchableActivity
+ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:47:9-58:20
+	android:screenOrientation
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:50:13-49
+	android:label
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:49:13-35
+	android:name
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:48:13-47
+meta-data#android.app.searchable
+ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:51:13-53:54
+	android:resource
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:53:17-51
+	android:name
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:52:17-54
+intent-filter#action:name:android.intent.action.SEARCH
+ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:55:13-57:29
+action#android.intent.action.SEARCH
+ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:56:17-71
+	android:name
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:56:25-68
+activity#car.com.cartique.client.SignupActivity
+ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:59:9-62:52
+	android:screenOrientation
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:62:13-49
+	android:label
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:61:13-36
+	android:name
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:60:13-43
+activity#car.com.cartique.client.CompleteSignUpActivity
+ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:63:9-66:52
+	android:screenOrientation
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:66:13-49
+	android:label
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:65:13-36
+	android:name
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:64:13-51
+activity#car.com.cartique.client.MainActivity
+ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:67:9-70:52
+	android:screenOrientation
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:70:13-49
+	android:label
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:69:13-37
+	android:name
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:68:13-41
+activity#car.com.cartique.client.ResetPasswordActivity
+ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:71:9-74:52
+	android:screenOrientation
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:74:13-49
+	android:label
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:73:13-43
+	android:name
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:72:13-50
+activity#car.com.cartique.client.ResultsActivity
+ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:75:9-78:52
+	android:screenOrientation
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:78:13-49
+	android:label
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:77:13-35
+	android:name
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:76:13-44
+activity#car.com.cartique.client.RecordOrderDetails
+ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:79:9-82:52
+	android:screenOrientation
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:82:13-49
+	android:label
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:81:13-42
+	android:name
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:80:13-47
+activity#car.com.cartique.client.QuotesActivity
+ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:83:9-86:52
+	android:screenOrientation
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:86:13-49
+	android:label
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:85:13-35
+	android:name
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:84:13-43
+activity#car.com.cartique.client.calender.ScheduleCalenderActivity
+ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:87:9-90:52
+	android:screenOrientation
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:90:13-49
+	android:label
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:89:13-42
+	android:name
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:88:13-62
+activity#car.com.cartique.client.RecordOrderActivity
+ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:91:9-94:52
+	android:screenOrientation
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:94:13-49
+	android:label
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:93:13-35
+	android:name
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:92:13-48
+activity#car.com.cartique.client.UserProfileActivity
+ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:95:9-98:52
+	android:screenOrientation
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:98:13-49
+	android:label
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:97:13-36
+	android:name
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:96:13-48
+service#car.com.cartique.client.service.MyFirebaseMessagingService
+ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:100:9-104:19
+	android:name
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:100:18-68
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:101:13-103:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:102:17-78
+	android:name
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:102:25-75
+service#car.com.cartique.client.service.FirebaseInstanceIDService
+ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:105:9-109:19
+	android:name
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:105:18-67
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:106:13-108:29
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:107:17-80
+	android:name
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:107:25-77
+meta-data#com.google.android.gms.version
+ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:111:9-113:69
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\167ca69b094889a0bad15261f58cef72\AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\167ca69b094889a0bad15261f58cef72\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:113:13-66
+	android:name
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:112:13-58
+meta-data#com.google.android.geo.API_KEY
+ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:114:9-116:55
+	android:value
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:116:13-52
+	android:name
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:115:13-58
+activity#car.com.cartique.client.QuoteDetailsActivity
+ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:118:9-58
+	android:name
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:118:19-55
+activity#car.com.cartique.client.about.AboutActivity
+ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:119:9-121:69
+	android:theme
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:121:13-66
+	android:name
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:120:13-48
+activity#car.com.cartique.client.calender.CalenderActivity
+ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:122:9-125:52
+	android:screenOrientation
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:125:13-49
+	android:label
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:124:13-36
+	android:name
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:123:13-54
+activity#car.com.cartique.client.about.PrivacyPolicyActivity
+ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:126:9-129:52
+	android:screenOrientation
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:129:13-49
+	android:label
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:128:13-36
+	android:name
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:127:13-56
+activity#car.com.cartique.client.about.TermsActivity
+ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:130:9-133:52
+	android:screenOrientation
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:133:13-49
+	android:label
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:132:13-49
+	android:name
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:131:13-48
+activity#car.com.cartique.client.OrderStatusActivity
+ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:134:9-137:52
+	android:screenOrientation
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:137:13-49
+	android:label
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:136:13-41
+	android:name
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:135:13-48
+activity#com.schibstedspain.leku.LocationPickerActivity
+ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:138:9-154:20
+	android:parentActivityName
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:141:13-57
+	android:label
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:140:13-72
+	android:windowSoftInputMode
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:143:13-52
+	android:theme
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:142:13-69
+	android:name
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:139:13-74
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:151:13-153:51
+	android:value
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:153:17-48
+	android:name
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:152:17-63
+activity#car.com.cartique.client.images.ViewImagesActivity
+ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:155:9-72
+	android:name
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml:155:19-60
+uses-sdk
+INJECTED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml
+MERGED from [:material-Calender] C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\material-Calender\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
+MERGED from [:material-Calender] C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\material-Calender\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\f031d89d71bcbcd148c3bd63c2bfea63\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\f031d89d71bcbcd148c3bd63c2bfea63\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.clans:fab:1.6.4] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\fab-1.6.4.aar\06d9918aef53e11bd18b0a9f8c424679\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.clans:fab:1.6.4] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\fab-1.6.4.aar\06d9918aef53e11bd18b0a9f8c424679\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.daniel-stoneuk:material-about-library:2.3.0] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\material-about-library-2.3.0.aar\4be5e9c06c30263719c876f657de64bc\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.daniel-stoneuk:material-about-library:2.3.0] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\material-about-library-2.3.0.aar\4be5e9c06c30263719c876f657de64bc\AndroidManifest.xml:7:5-9:41
+MERGED from [com.schibstedspain.android:leku:5.0.0] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\leku-5.0.0.aar\fb8637e168bf1b29e37ef280238ab2a3\AndroidManifest.xml:22:5-24:41
+MERGED from [com.schibstedspain.android:leku:5.0.0] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\leku-5.0.0.aar\fb8637e168bf1b29e37ef280238ab2a3\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:design:27.1.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\39a218ac306eb326b495899b8f311186\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\39a218ac306eb326b495899b8f311186\AndroidManifest.xml:20:5-44
+MERGED from [com.firebaseui:firebase-ui-storage:4.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-ui-storage-4.0.1.aar\54e703468cfd8bda98ae5ee0ec28b7b9\AndroidManifest.xml:7:5-9:41
+MERGED from [com.firebaseui:firebase-ui-storage:4.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-ui-storage-4.0.1.aar\54e703468cfd8bda98ae5ee0ec28b7b9\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-places:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-places-15.0.1.aar\eef6564c9ea1ba33a0e7dc0dd61b0e76\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-places-15.0.1.aar\eef6564c9ea1ba33a0e7dc0dd61b0e76\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\90a6381d5d4ab44e4b6c7f083124d6af\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\90a6381d5d4ab44e4b6c7f083124d6af\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database:16.0.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-database-16.0.2.aar\08f99d67df51c88ada7d0ff4d538d529\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-database:16.0.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-database-16.0.2.aar\08f99d67df51c88ada7d0ff4d538d529\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-auth:16.0.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.3.aar\82c2892a66077cedc33b70c0ea21e96a\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:16.0.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.3.aar\82c2892a66077cedc33b70c0ea21e96a\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.3.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.2.aar\bd124cd4a4d761647ab74006a19b1a3a\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.3.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.2.aar\bd124cd4a4d761647ab74006a19b1a3a\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-flags-15.0.1.aar\61929f573dcf56af90c96582cd1d090f\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-flags-15.0.1.aar\61929f573dcf56af90c96582cd1d090f\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-16.0.0.aar\1bf52e831bdea401a8de1b0d2f825509\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-16.0.0.aar\1bf52e831bdea401a8de1b0d2f825509\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-location-15.0.1.aar\9b255e7e28059a88599232aa3c2f349d\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-location-15.0.1.aar\9b255e7e28059a88599232aa3c2f349d\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-storage:16.0.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-storage-16.0.2.aar\784ee87db96e0a0e1ae1b78fab664956\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-storage:16.0.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-storage-16.0.2.aar\784ee87db96e0a0e1ae1b78fab664956\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-core:16.0.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.3.aar\e16cd24ee08ebc578bc4567f77c82497\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.3.aar\e16cd24ee08ebc578bc4567f77c82497\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.1.aar\58c86040a1b0a284ffe0c140411951fd\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.1.aar\58c86040a1b0a284ffe0c140411951fd\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\e121411ff6ae8694e69ca046fe968b56\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\e121411ff6ae8694e69ca046fe968b56\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.0.1.aar\7a77a85dc6a4bf8ed29bb2a014c35c28\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.0.1.aar\7a77a85dc6a4bf8ed29bb2a014c35c28\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.1.aar\f4667be0cfa122f23334260e419e5d10\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.1.aar\f4667be0cfa122f23334260e419e5d10\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.2.aar\32ec4084b013479521643c6a77f4b70d\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.2.aar\32ec4084b013479521643c6a77f4b70d\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.0.aar\3a5c53d675d95b740b98c0448762072e\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.0.aar\3a5c53d675d95b740b98c0448762072e\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\306ff066f6b976b3495879e48672e514\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\306ff066f6b976b3495879e48672e514\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.2.aar\4c69dd2c69d3c1bcc7fe25fc86dd9680\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.0.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.2.aar\4c69dd2c69d3c1bcc7fe25fc86dd9680\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\445512d54b493b5187ee0a4d42898042\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\445512d54b493b5187ee0a4d42898042\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-database-collection-15.0.1.aar\6f18dfd58e2656df05bb0e04e91a0e2d\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-collection:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-database-collection-15.0.1.aar\6f18dfd58e2656df05bb0e04e91a0e2d\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-stats-15.0.1.aar\177d1bbfff344fa7a8330db8829d148f\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-stats-15.0.1.aar\177d1bbfff344fa7a8330db8829d148f\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-15.0.1.aar\dad9c0d66ca264d7b560a156af70a626\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-15.0.1.aar\dad9c0d66ca264d7b560a156af70a626\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\0ef00550d646c1416a938a2091d778ee\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\0ef00550d646c1416a938a2091d778ee\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.0] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.0.aar\b28eb7257829980d6b8fb78d65a1d949\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.0] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.0.aar\b28eb7257829980d6b8fb78d65a1d949\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\167ca69b094889a0bad15261f58cef72\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\167ca69b094889a0bad15261f58cef72\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\602d2552dd2572a4c22b6a0052ae302f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\602d2552dd2572a4c22b6a0052ae302f\AndroidManifest.xml:20:5-44
+MERGED from [com.mikepenz:aboutlibraries:6.1.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\aboutlibraries-6.1.1.aar\e8a676b177bb49da9a4328864a0e334b\AndroidManifest.xml:7:5-9:41
+MERGED from [com.mikepenz:aboutlibraries:6.1.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\aboutlibraries-6.1.1.aar\e8a676b177bb49da9a4328864a0e334b\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.transferwise:sequence-layout:1.0.7] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\sequence-layout-1.0.7.aar\44687726c96115f0ead3f3f9492192e9\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.transferwise:sequence-layout:1.0.7] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\sequence-layout-1.0.7.aar\44687726c96115f0ead3f3f9492192e9\AndroidManifest.xml:7:5-9:41
+MERGED from [com.mikepenz:iconics-core:3.0.4] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\iconics-core-3.0.4.aar\aea8d6d385f208de44b5173a35c34e0e\AndroidManifest.xml:7:5-9:41
+MERGED from [com.mikepenz:iconics-core:3.0.4] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\iconics-core-3.0.4.aar\aea8d6d385f208de44b5173a35c34e0e\AndroidManifest.xml:7:5-9:41
+MERGED from [com.mikepenz:fastadapter:3.2.7] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\fastadapter-3.2.7.aar\181460fa87370e11746addbead29536a\AndroidManifest.xml:7:5-9:41
+MERGED from [com.mikepenz:fastadapter:3.2.7] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\fastadapter-3.2.7.aar\181460fa87370e11746addbead29536a\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\c63d4e92752668f7626700c31844a77b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\c63d4e92752668f7626700c31844a77b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\23cb21ff4a2f188393a6bbd630028a42\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\23cb21ff4a2f188393a6bbd630028a42\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\81674f517667366196c0061bd343e721\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\81674f517667366196c0061bd343e721\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:palette-v7:27.1.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\palette-v7-27.1.1.aar\91a05a861760bd9338cf8a221eac7c73\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:palette-v7:27.1.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\palette-v7-27.1.1.aar\91a05a861760bd9338cf8a221eac7c73\AndroidManifest.xml:20:5-44
+MERGED from [com.intuit.sdp:sdp-android:1.0.5] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\sdp-android-1.0.5.aar\7f008b929c5412d4fb4e441117a4afbf\AndroidManifest.xml:7:5-9:41
+MERGED from [com.intuit.sdp:sdp-android:1.0.5] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\sdp-android-1.0.5.aar\7f008b929c5412d4fb4e441117a4afbf\AndroidManifest.xml:7:5-9:41
+MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\circleimageview-2.0.0.aar\99e3c6858f10da50299991ae39b11b3c\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\circleimageview-2.0.0.aar\99e3c6858f10da50299991ae39b11b3c\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.traex.rippleeffect:library:1.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\library-1.3.aar\9e3485fd4e78f45ca9d612de4c8ecbd3\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.traex.rippleeffect:library:1.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\library-1.3.aar\9e3485fd4e78f45ca9d612de4c8ecbd3\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.bhargavms:DotLoader:1.1.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\DotLoader-1.1.1.aar\548acd7d1bc6a860a36d4064e7d4c9e9\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bhargavms:DotLoader:1.1.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\DotLoader-1.1.1.aar\548acd7d1bc6a860a36d4064e7d4c9e9\AndroidManifest.xml:7:5-9:41
+MERGED from [com.jaredrummler:material-spinner:1.2.5] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\material-spinner-1.2.5.aar\0c74225a925894a5bb3c2f6e1027b293\AndroidManifest.xml:6:5-8:41
+MERGED from [com.jaredrummler:material-spinner:1.2.5] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\material-spinner-1.2.5.aar\0c74225a925894a5bb3c2f6e1027b293\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.7.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\glide-4.7.1.aar\12f41d00eba277968e70c691c886d181\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:glide:4.7.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\glide-4.7.1.aar\12f41d00eba277968e70c691c886d181\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\a0ecda7eb331f3135b20d64685730f81\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\a0ecda7eb331f3135b20d64685730f81\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\91ee4ef01dfde78416e0b6f5d708fecc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\91ee4ef01dfde78416e0b6f5d708fecc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\423d3d536e9ca39e7c377914f4f5e22f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\423d3d536e9ca39e7c377914f4f5e22f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\a453b3bb62b6b8d66ca0b4d2662f8abf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\a453b3bb62b6b8d66ca0b4d2662f8abf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\6087e464b4b7193f88d97f77b214048c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\6087e464b4b7193f88d97f77b214048c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\93760d9a20eecd50439cdd0dfa3bbe0a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\93760d9a20eecd50439cdd0dfa3bbe0a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\ec7e004f4951fe6bbbef78f221a8aee6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\ec7e004f4951fe6bbbef78f221a8aee6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\bb3e578b1063c851a2e398a264fd0f16\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\bb3e578b1063c851a2e398a264fd0f16\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.7.1.aar\662fb6ad863409b4ba7a67d3545b0758\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.7.1.aar\662fb6ad863409b4ba7a67d3545b0758\AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\d4c774baee59e22d64826722e20a8e70\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\d4c774baee59e22d64826722e20a8e70\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\271d11de251be546c07cd2b843bb3d11\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\271d11de251be546c07cd2b843bb3d11\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\272cbedbe9062d8a32d8a6601d84e2e0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\272cbedbe9062d8a32d8a6601d84e2e0\AndroidManifest.xml:20:5-44
+MERGED from [pl.charmas.android:android-reactive-location2:2.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\android-reactive-location2-2.1.aar\3a58195e862ad28809c00926758ccb95\AndroidManifest.xml:6:5-8:41
+MERGED from [pl.charmas.android:android-reactive-location2:2.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\android-reactive-location2-2.1.aar\3a58195e862ad28809c00926758ccb95\AndroidManifest.xml:6:5-8:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\rxandroid-2.0.2.aar\082a27921e3de0606275a7f2c41aa2cc\AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\rxandroid-2.0.2.aar\082a27921e3de0606275a7f2c41aa2cc\AndroidManifest.xml:19:5-43
+MERGED from [nl.littlerobots.rxlint:rxlint:1.6.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\rxlint-1.6.1.aar\9f7c713e50b2701929bb395677713bed\AndroidManifest.xml:7:5-9:41
+MERGED from [nl.littlerobots.rxlint:rxlint:1.6.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\rxlint-1.6.1.aar\9f7c713e50b2701929bb395677713bed\AndroidManifest.xml:7:5-9:41
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\f7d3ab099ec341076893154d2cef4227\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\f7d3ab099ec341076893154d2cef4227\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.2.aar\00da2dded1e7b3a6a03473d6db0e67a7\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.2.aar\00da2dded1e7b3a6a03473d6db0e67a7\AndroidManifest.xml:5:5-44
+INJECTED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ekasilab\Documents\SourceCode\CartiqueClients\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\90a6381d5d4ab44e4b6c7f083124d6af\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-storage:16.0.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-storage-16.0.2.aar\784ee87db96e0a0e1ae1b78fab664956\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-storage:16.0.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-storage-16.0.2.aar\784ee87db96e0a0e1ae1b78fab664956\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.1.aar\58c86040a1b0a284ffe0c140411951fd\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.1.aar\58c86040a1b0a284ffe0c140411951fd\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\e121411ff6ae8694e69ca046fe968b56\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\e121411ff6ae8694e69ca046fe968b56\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.1.aar\f4667be0cfa122f23334260e419e5d10\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.1.aar\f4667be0cfa122f23334260e419e5d10\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.2.aar\32ec4084b013479521643c6a77f4b70d\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.2.aar\32ec4084b013479521643c6a77f4b70d\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\90a6381d5d4ab44e4b6c7f083124d6af\AndroidManifest.xml:23:22-76
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\90a6381d5d4ab44e4b6c7f083124d6af\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\90a6381d5d4ab44e4b6c7f083124d6af\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\90a6381d5d4ab44e4b6c7f083124d6af\AndroidManifest.xml:28:9-32
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:16.0.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.3.aar\82c2892a66077cedc33b70c0ea21e96a\AndroidManifest.xml:23:9-29:75
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:16.0.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.3.aar\82c2892a66077cedc33b70c0ea21e96a\AndroidManifest.xml:25:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:16.0.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.3.aar\82c2892a66077cedc33b70c0ea21e96a\AndroidManifest.xml:27:13-48
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:16.0.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.3.aar\82c2892a66077cedc33b70c0ea21e96a\AndroidManifest.xml:26:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:16.0.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.3.aar\82c2892a66077cedc33b70c0ea21e96a\AndroidManifest.xml:28:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:16.0.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.3.aar\82c2892a66077cedc33b70c0ea21e96a\AndroidManifest.xml:29:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.3.aar\82c2892a66077cedc33b70c0ea21e96a\AndroidManifest.xml:24:13-85
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:16.0.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.3.aar\82c2892a66077cedc33b70c0ea21e96a\AndroidManifest.xml:31:9-35:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.1.aar\58c86040a1b0a284ffe0c140411951fd\AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.1.aar\58c86040a1b0a284ffe0c140411951fd\AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.2.aar\32ec4084b013479521643c6a77f4b70d\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.2.aar\32ec4084b013479521643c6a77f4b70d\AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.2.aar\32ec4084b013479521643c6a77f4b70d\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.3.aar\82c2892a66077cedc33b70c0ea21e96a\AndroidManifest.xml:31:18-89
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:16.0.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.3.aar\82c2892a66077cedc33b70c0ea21e96a\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:16.0.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.3.aar\82c2892a66077cedc33b70c0ea21e96a\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.3.aar\82c2892a66077cedc33b70c0ea21e96a\AndroidManifest.xml:33:17-109
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:17.3.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.2.aar\bd124cd4a4d761647ab74006a19b1a3a\AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:17.3.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.2.aar\bd124cd4a4d761647ab74006a19b1a3a\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:17.3.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.2.aar\bd124cd4a4d761647ab74006a19b1a3a\AndroidManifest.xml:29:13-82
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.1.aar\58c86040a1b0a284ffe0c140411951fd\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\e121411ff6ae8694e69ca046fe968b56\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\e121411ff6ae8694e69ca046fe968b56\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.1.aar\f4667be0cfa122f23334260e419e5d10\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.1.aar\f4667be0cfa122f23334260e419e5d10\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.2.aar\32ec4084b013479521643c6a77f4b70d\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.2.aar\32ec4084b013479521643c6a77f4b70d\AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.1.aar\58c86040a1b0a284ffe0c140411951fd\AndroidManifest.xml:24:22-65
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.1.aar\58c86040a1b0a284ffe0c140411951fd\AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.1.aar\58c86040a1b0a284ffe0c140411951fd\AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.1.aar\58c86040a1b0a284ffe0c140411951fd\AndroidManifest.xml:29:17-139
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\e121411ff6ae8694e69ca046fe968b56\AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.1.aar\f4667be0cfa122f23334260e419e5d10\AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.1.aar\f4667be0cfa122f23334260e419e5d10\AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\e121411ff6ae8694e69ca046fe968b56\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\e121411ff6ae8694e69ca046fe968b56\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\e121411ff6ae8694e69ca046fe968b56\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\e121411ff6ae8694e69ca046fe968b56\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\e121411ff6ae8694e69ca046fe968b56\AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\e121411ff6ae8694e69ca046fe968b56\AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.1.aar\f4667be0cfa122f23334260e419e5d10\AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.1.aar\f4667be0cfa122f23334260e419e5d10\AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\e121411ff6ae8694e69ca046fe968b56\AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\e121411ff6ae8694e69ca046fe968b56\AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\e121411ff6ae8694e69ca046fe968b56\AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\e121411ff6ae8694e69ca046fe968b56\AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\e121411ff6ae8694e69ca046fe968b56\AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\e121411ff6ae8694e69ca046fe968b56\AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\e121411ff6ae8694e69ca046fe968b56\AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\e121411ff6ae8694e69ca046fe968b56\AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\e121411ff6ae8694e69ca046fe968b56\AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\e121411ff6ae8694e69ca046fe968b56\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\e121411ff6ae8694e69ca046fe968b56\AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\e121411ff6ae8694e69ca046fe968b56\AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\e121411ff6ae8694e69ca046fe968b56\AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\e121411ff6ae8694e69ca046fe968b56\AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\e121411ff6ae8694e69ca046fe968b56\AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\e121411ff6ae8694e69ca046fe968b56\AndroidManifest.xml:49:13-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.2.aar\32ec4084b013479521643c6a77f4b70d\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.2.aar\32ec4084b013479521643c6a77f4b70d\AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.2.aar\32ec4084b013479521643c6a77f4b70d\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.2.aar\32ec4084b013479521643c6a77f4b70d\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.2.aar\32ec4084b013479521643c6a77f4b70d\AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.2.aar\32ec4084b013479521643c6a77f4b70d\AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.2.aar\32ec4084b013479521643c6a77f4b70d\AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.2.aar\32ec4084b013479521643c6a77f4b70d\AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.2.aar\32ec4084b013479521643c6a77f4b70d\AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.2.aar\32ec4084b013479521643c6a77f4b70d\AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.2.aar\32ec4084b013479521643c6a77f4b70d\AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.2.aar\32ec4084b013479521643c6a77f4b70d\AndroidManifest.xml:42:25-78
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.2.aar\32ec4084b013479521643c6a77f4b70d\AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.2.aar\32ec4084b013479521643c6a77f4b70d\AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.2.aar\32ec4084b013479521643c6a77f4b70d\AndroidManifest.xml:51:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\306ff066f6b976b3495879e48672e514\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\306ff066f6b976b3495879e48672e514\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\306ff066f6b976b3495879e48672e514\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\306ff066f6b976b3495879e48672e514\AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.2.aar\4c69dd2c69d3c1bcc7fe25fc86dd9680\AndroidManifest.xml:10:9-14:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.2.aar\4c69dd2c69d3c1bcc7fe25fc86dd9680\AndroidManifest.xml:12:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.2.aar\4c69dd2c69d3c1bcc7fe25fc86dd9680\AndroidManifest.xml:13:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.2.aar\4c69dd2c69d3c1bcc7fe25fc86dd9680\AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.2] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.2.aar\4c69dd2c69d3c1bcc7fe25fc86dd9680\AndroidManifest.xml:11:13-77
+activity#com.mikepenz.aboutlibraries.ui.LibsActivity
+ADDED from [com.mikepenz:aboutlibraries:6.1.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\aboutlibraries-6.1.1.aar\e8a676b177bb49da9a4328864a0e334b\AndroidManifest.xml:12:9-80
+	android:name
+		ADDED from [com.mikepenz:aboutlibraries:6.1.1] C:\Users\Ekasilab\.gradle\caches\transforms-1\files-1.1\aboutlibraries-6.1.1.aar\e8a676b177bb49da9a4328864a0e334b\AndroidManifest.xml:12:19-77

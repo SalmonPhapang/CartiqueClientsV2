@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_home_white_24dp" android:id="@+id/navigation_home" android:title="@string/title_home" />
+    <item android:icon="@drawable/ic_build_white_24dp" android:id="@+id/navigation_shop" android:title="@string/title_shop" />
+    <item android:icon="@drawable/ic_invert_colors_white_24dp" android:id="@+id/navigation_gifts" android:title="@string/title_gifts" />
+    <item android:icon="@drawable/ic_explore_white_24dp" android:id="@+id/navigation_cart" android:title="@string/title_cart" />
+</menu>

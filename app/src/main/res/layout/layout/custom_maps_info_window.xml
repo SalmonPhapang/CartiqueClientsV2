@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:background="@android:color/white" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_1sdp" android:layout_marginBottom="@dimen/_4sdp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <car.com.cartique.app.CircularNetworkImageView android:id="@+id/map_profile_image" android:layout_width="@dimen/_25sdp" android:layout_height="@dimen/_25sdp" android:layout_marginLeft="@dimen/_10sdp" android:src="@drawable/ic_menu_user" android:scaleType="fitCenter" />
+    <TextView android:textSize="@dimen/_6sdp" android:textColor="@color/colorPrimaryDark" android:id="@+id/txtmapname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_3sdp" android:layout_marginTop="@dimen/_1sdp" android:text="text here" android:layout_toRightOf="@+id/map_profile_image" android:fontFamily="sans-serif-medium" />
+    <TextView android:textSize="@dimen/_5sdp" android:textColor="@color/colorPrimary" android:id="@+id/txtmapaddress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_3sdp" android:text="text here" android:layout_toRightOf="@+id/map_profile_image" android:layout_below="@+id/txtmapname" android:fontFamily="sans-serif-medium" />
+</RelativeLayout>

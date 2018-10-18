@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#ffff5252</color>
+    <color name="colorAccentBG">#fff2fe71</color>
+    <color name="colorPrimary">#ff2196f3</color>
+    <color name="colorPrimaryBG">#ff00bcd4</color>
+    <color name="colorPrimaryDark">#ff1976d2</color>
+    <color name="colorPrimaryDarkBG">#ff0097a7</color>
+	 <color name="bgBottomNavigation">#ff2196f3</color>
+    <color name="bg_login">#ff26ae90</color>
+    <color name="bg_main">#ff428bca</color>
+    <color name="bg_register">#ff2e3237</color>
+	 <color name="btn_login">#ff26ae90</color>
+    <color name="btn_login_bg">#ffeceef1</color>
+    <color name="btn_logut_bg">#ffff6861</color>
+	    <color name="feed_item_border">#ffc2c3c8</color>
+  <color name="input_login">#ff222222</color>
+    <color name="input_login_hint">#ff999999</color>
+    <color name="input_register">#ff888888</color>
+    <color name="input_register_bg">#ff3b4148</color>
+    <color name="input_register_hint">#ff5e6266</color>
+    <color name="lbl_name">#ff333333</color>
+	<color name="white">#ffffffff</color>
+    <color name="colorPrimaryPix">@color/colorPrimary</color>
+    <color name="colorPrimaryLightPix">@color/colorAccent</color>
+    <color name="contact_name">#333333</color>
+    <color name="contact_number">#8c8c8c</color>
+</resources>

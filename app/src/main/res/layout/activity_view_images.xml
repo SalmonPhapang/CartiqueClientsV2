@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".images.ViewImagesActivity">
+    <RelativeLayout
+        android:id="@+id/layoutWithData"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff5f5f5">
+        <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/tool_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="?actionBarSize"
+            android:background="@color/colorPrimary"
+            app:titleTextColor="@android:color/white" />
+    <com.bhargavms.dotloader.DotLoader
+        android:id="@+id/prgload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:color_array="@array/dot_colors"
+        app:dot_radius="@dimen/_2sdp"
+        app:number_of_dots="6" />
+    <GridView
+        android:id="@+id/grid_view_image_quote"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:columnWidth="@dimen/_80sdp"
+        android:numColumns="2" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/colorPrimary"
+    android:fillViewport="true"
+    android:scrollbarAlwaysDrawVerticalTrack="true">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/login_title"
+        android:layout_marginTop="@dimen/_2sdp"
+        android:background="#ffffffff"
+        android:orientation="vertical"
+        android:padding="20.0dip">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/_10sdp">
+            <Switch
+                android:id="@+id/rdbProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Use my car details "
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/_13sdp"
+                android:textStyle="bold"
+                android:theme="@style/AppTheme"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:gravity="center_horizontal"
+                android:text="OR"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:text="Enter new car details"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/_13sdp"
+                android:textStyle="bold" />
+            <!--<android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/rdbProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Use my car details"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/_13sdp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:gravity="center_horizontal"
+                android:text="OR"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold" />
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/rdbNewProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter new car details"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/_13sdp"
+                android:textStyle="bold" />-->
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/txtPaintMake"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Make"
+                    android:inputType="text"
+                    android:singleLine="true" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/txtPaintModel"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16.0dip"
+                    android:hint="Model"
+                    android:inputType="text"
+                    android:singleLine="true" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/txtPaintYear"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16.0dip"
+                    android:hint="Year"
+                    android:inputType="text"
+                    android:singleLine="true" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/txtPaintColor"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16.0dip"
+                    android:hint="Color"
+                    android:inputType="text"
+                    android:singleLine="true" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btnPaintUpload"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_15sdp"
+                android:layout_marginEnd="@dimen/_23sdp"
+                android:layout_marginStart="@dimen/_23sdp"
+                android:layout_marginTop="@dimen/_22sdp"
+                android:background="@color/colorAccent"
+                android:text="Choose images"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_17sdp" />
+
+            <TextView
+                android:id="@+id/txtFilesChosen"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/_10sdp"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btnGetQuotes"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_22sdp"
+                android:layout_marginStart="@dimen/_22sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@color/colorAccent"
+                android:text="Get Quotes"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_18sdp" />
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>
