@@ -6,9 +6,13 @@ package car.com.cartique.client.service;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.support.design.widget.Snackbar;
 import android.support.v4.content.LocalBroadcastManager;
 import android.util.Log;
 
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.iid.FirebaseInstanceId;
 import com.google.firebase.iid.FirebaseInstanceIdService;
 
@@ -16,11 +20,13 @@ import car.com.cartique.client.app.Config;
 
 public class FirebaseInstanceIDService extends FirebaseInstanceIdService {
     private static final String TAG = FirebaseInstanceIDService.class.getSimpleName();
+    private DatabaseReference databaseReference;
 
     @Override
     public void onTokenRefresh() {
         super.onTokenRefresh();
         String refreshedToken = FirebaseInstanceId.getInstance().getToken();
+        databaseReference = FirebaseDatabase.getInstance().getReference();
 
         // Saving reg id to shared preferences
         storeRegIdInPref(refreshedToken);

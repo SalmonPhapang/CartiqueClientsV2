@@ -12,70 +12,336 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/_5sdp"
         android:background="@color/colorPrimary"
-        app:titleTextColor="@android:color/white" />
+        app:titleTextColor="@android:color/white">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/_40sdp"
-        android:gravity="center"
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginStart="@dimen/_50sdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtstatusClientName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Name"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/txtstatusOrderNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="#Order Number"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </android.support.v7.widget.Toolbar>
+
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/txtstatusClientName"
+        <android.support.v7.widget.LinearLayoutCompat
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="sans-serif-medium"
-            android:text="Name"
-            android:textColor="@color/bg_register" />
+            android:layout_marginStart="@dimen/_10sdp"
+            android:orientation="horizontal">
 
-        <TextView
-            android:id="@+id/txtstatusOrderNumber"
+            <TextView
+                android:id="@+id/txtStatusName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Initiated"
+                android:textColor="@color/bg_register"
+                android:textSize="@dimen/_11sdp" />
+
+
+                <ProgressBar
+                    android:id="@+id/initiatedStatusCurcularProgressbar"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="@dimen/_30sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:indeterminate="false"
+                    android:max="100"
+                    android:progressDrawable="@drawable/progressbar_background"
+                    android:secondaryProgress="0" />
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/initialStatusActive"
+                android:layout_width="@dimen/_17sdp"
+                android:layout_height="@dimen/_18sdp"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:layout_marginStart="@dimen/_minus24sdp"
+                android:background="@drawable/circle"
+                android:visibility="gone"/>
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <ProgressBar
+            android:id="@+id/preparationStatusHorizontalProgressbar"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="sans-serif-medium"
-            android:text="#Order Number"
-            android:textColor="@color/bg_register" />
-    </LinearLayout>
+            android:layout_marginStart="@dimen/_46sdp"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:indeterminate="false"
+            android:progressBackgroundTint="@color/colorAccent"
+            android:progressBackgroundTintMode="src_in"
+            android:progressTint="@color/colorAccent"
+            android:progressTintMode="src_in"
+            android:max="100"
+            android:rotation="-270" />
 
-    <com.transferwise.sequencelayout.SequenceLayout
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/_250sdp"
-        android:layout_marginTop="@dimen/_10sdp"
-        app:progressBackgroundColor="@color/colorPrimaryDark"
-        app:progressForegroundColor="@color/colorAccent">
-
-        <com.transferwise.sequencelayout.SequenceStep
-            android:id="@+id/statusInitialSequenceStep"
-            android:layout_width="match_parent"
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:anchor="30 Nov"
-            app:title="Initiated" />
+            android:layout_marginStart="@dimen/_51sdp"
+            android:layout_marginTop="@dimen/_11sdp"
+            android:orientation="horizontal">
 
-        <com.transferwise.sequencelayout.SequenceStep
-            android:id="@+id/statusPreparationSequenceStep"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:anchor="Today"
-            app:title="Preparation" />
+            <ProgressBar
+                android:id="@+id/preparationCurcularStatusProgressbar"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:indeterminate="false"
+                android:max="100"
+                android:progress="30"
+                android:progressDrawable="@drawable/progressbar_background"
+                android:secondaryProgress="0" />
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/preparationStatusActive"
+                android:layout_width="@dimen/_17sdp"
+                android:layout_height="@dimen/_18sdp"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:layout_marginStart="@dimen/_minus24sdp"
+                android:background="@drawable/circle"
+                android:visibility="gone"/>
 
-        <com.transferwise.sequencelayout.SequenceStep
-            android:id="@+id/statusInProgressSequenceStep"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:title="In Progress" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Preparation"
+                android:textColor="@color/bg_register"
+                android:textSize="@dimen/_11sdp" />
+        </android.support.v7.widget.LinearLayoutCompat>
 
-        <com.transferwise.sequencelayout.SequenceStep
-            android:id="@+id/statusDoneSequenceStep"
-            android:layout_width="match_parent"
+        <ProgressBar
+            android:id="@+id/inprogressHorizontalStatusProgressbar"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:anchor="2 Dec"
-            app:title="Done" />
-    </com.transferwise.sequencelayout.SequenceLayout>
+            android:layout_marginStart="@dimen/_46sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:indeterminate="false"
+            android:progressBackgroundTint="@color/colorAccent"
+            android:progressBackgroundTintMode="src_in"
+            android:progressTint="@color/colorAccent"
+            android:rotation="-270" />
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_51sdp"
+            android:layout_marginTop="@dimen/_11sdp"
+            android:orientation="horizontal">
+
+            <ProgressBar
+                android:id="@+id/inprogressCurcularStatusProgressbar"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:indeterminate="false"
+                android:max="100"
+                android:progress="30"
+                android:progressDrawable="@drawable/progressbar_background"
+                android:secondaryProgress="0" />
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/inprogresstatusActive"
+                android:layout_width="@dimen/_17sdp"
+                android:layout_height="@dimen/_18sdp"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:layout_marginStart="@dimen/_minus24sdp"
+                android:background="@drawable/circle"
+                android:visibility="gone"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:fontFamily="sans-serif-medium"
+                android:text="InProgress"
+                android:textColor="@color/bg_register"
+                android:textSize="@dimen/_11sdp" />
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <ProgressBar
+            android:id="@+id/finishedHorizontalStatusProgressbar"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_46sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:indeterminate="false"
+            android:progressBackgroundTint="@color/colorAccent"
+            android:progressBackgroundTintMode="src_in"
+            android:progressTint="@color/colorAccent"
+            android:max="100"
+            android:rotation="-270" />
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_11sdp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Finished"
+                android:textColor="@color/bg_register"
+                android:textSize="@dimen/_11sdp" />
+
+            <ProgressBar
+                android:id="@+id/finishedCicularStatusProgressbar"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:indeterminate="false"
+                android:max="100"
+                android:progress="30"
+                android:progressDrawable="@drawable/progressbar_background"
+                android:secondaryProgress="0"/>
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/finishedStatusActive"
+                android:layout_width="@dimen/_17sdp"
+                android:layout_height="@dimen/_18sdp"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:layout_marginStart="@dimen/_minus24sdp"
+                android:background="@drawable/circle"
+                android:visibility="gone"/>
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <ProgressBar
+            android:id="@+id/collectionHorizontalStatusProgressbar"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_46sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:indeterminate="false"
+            android:progressBackgroundTint="@color/colorAccent"
+            android:progressBackgroundTintMode="src_in"
+            android:progressTint="@color/colorAccent"
+            android:max="100"
+            android:rotation="-270" />
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_52sdp"
+            android:layout_marginTop="@dimen/_11sdp"
+            android:orientation="horizontal">
+
+            <ProgressBar
+                android:id="@+id/collectionCircularStatusProgressbar"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:indeterminate="false"
+                android:max="100"
+                android:progress="30"
+                android:progressDrawable="@drawable/progressbar_background"
+                android:secondaryProgress="0" />
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/collectionStatusActive"
+                android:layout_width="@dimen/_17sdp"
+                android:layout_height="@dimen/_18sdp"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:layout_marginStart="@dimen/_minus24sdp"
+                android:background="@drawable/circle"
+                android:visibility="gone"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Collection"
+                android:textColor="@color/bg_register"
+                android:textSize="@dimen/_11sdp" />
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <ProgressBar
+            android:id="@+id/collectedHorizontalStatusProgressbar"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_46sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:indeterminate="false"
+            android:progressBackgroundTint="@color/colorAccent"
+            android:progressBackgroundTintMode="src_in"
+            android:progressTint="@color/btn_login"
+            android:max="100"
+            android:rotation="-270" />
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_minus6sdp"
+            android:layout_marginTop="@dimen/_11sdp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Collected"
+                android:textColor="@color/bg_register"
+                android:textSize="@dimen/_11sdp" />
+
+            <ProgressBar
+                android:id="@+id/collectedCircularStatusProgressbar"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:indeterminate="false"
+                android:max="100"
+                android:progress="30"
+                android:progressDrawable="@drawable/progressbar_background"
+                android:secondaryProgress="0" />
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/collectedStatusActive"
+                android:layout_width="@dimen/_17sdp"
+                android:layout_height="@dimen/_18sdp"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:layout_marginStart="@dimen/_minus24sdp"
+                android:background="@drawable/circle"
+                android:visibility="gone"/>
+        </android.support.v7.widget.LinearLayoutCompat>
+    </android.support.v7.widget.LinearLayoutCompat>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
+
         <TextView
             android:id="@+id/txtsetStatus"
             android:layout_width="wrap_content"
@@ -83,26 +349,17 @@
             android:layout_marginTop="@dimen/_10sdp"
             android:fontFamily="sans-serif-medium"
             android:text="Change Status : "
-            android:textSize="@dimen/_13sdp"
-            android:textColor="@color/bg_register" />
+            android:textColor="@color/bg_register"
+            android:textSize="@dimen/_13sdp" />
 
-        <com.jaredrummler.materialspinner.MaterialSpinner
+        <Spinner
             android:id="@+id/spinner"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-       <!-- <car.com.cartique.client.custom.CustomSpinner
-            android:id="@+id/spinner"
-            style="@style/Widget.AppCompat.Spinner"
-            android:layout_width="wrap_content"
-            android:dropDownWidth="wrap_content"
-            android:layout_height="?attr/dropdownListPreferredItemHeight"
-            android:dropDownVerticalOffset="?attr/dropdownListPreferredItemHeight"
-            android:background="@drawable/spinner_bg"
-            android:popupBackground="@android:color/white"
-            android:paddingEnd="@dimen/_14sdp"
-            android:stateListAnimator="@drawable/spinner_sla"
-            android:popupElevation="@dimen/_3sdp" />-->
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp" />
+
     </LinearLayout>
+
     <android.support.v7.widget.AppCompatButton
         android:id="@+id/btn_setStatus"
         android:layout_width="fill_parent"

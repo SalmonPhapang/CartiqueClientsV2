@@ -5,6 +5,7 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.annotation.NonNull;
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
 import android.view.View;
@@ -13,6 +14,7 @@ import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.FirebaseApp;
 import com.google.firebase.auth.AuthResult;
@@ -108,7 +110,7 @@ public class LoginActivity extends AppCompatActivity {
                                     // If sign in fails, display a message to the user. If sign in succeeds
                                     // the auth state listener will be notified and logic to handle the
                                     // signed in user can be handled in the listener.
-                                    progressBar.setVisibility(View.GONE);
+
                                     if (!task.isSuccessful()) {
                                         // there was an error
                                         if (password.length() < 6) {
@@ -133,9 +135,21 @@ public class LoginActivity extends AppCompatActivity {
                                                 Gson gson = new Gson();
                                                 String userString = gson.toJson(logInUser);
                                                 storeUserObjInPref(userString);
-                                                Intent intent = new Intent(LoginActivity.this, MainActivity.class);
-                                                startActivity(intent);
-                                                finish();
+                                                SharedPreferences pref =  PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
+                                                final String token = pref.getString("regId","");
+                                                String uniqueKey = null;
+                                                for (String key : user.keySet()){
+                                                    uniqueKey = key;
+                                                }
+                                                databaseReference.child(dataSnapshot.getKey()).child(uniqueKey).child("NotificationID").setValue(token).addOnSuccessListener(new OnSuccessListener<Void>() {
+                                                    @Override
+                                                    public void onSuccess(Void aVoid) {
+                                                        progressBar.setVisibility(View.GONE);
+                                                        Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                                                        startActivity(intent);
+                                                        finish();
+                                                    }
+                                                });
                                             }
 
                                             @Override
@@ -152,10 +166,6 @@ public class LoginActivity extends AppCompatActivity {
 
     }
     private void storeUserObjInPref(String user) {
-        /*SharedPreferences pref = getApplicationContext().getSharedPreferences(Config.SHARED_PREF, 0);
-        SharedPreferences.Editor editor = pref.edit();
-        editor.putString(Config.USER_OBJECT,user);
-        editor.commit();*/
         SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
         SharedPreferences.Editor editor = preferences.edit();
         editor.putString(Config.USER_OBJECT,user);

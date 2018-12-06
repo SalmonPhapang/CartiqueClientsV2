@@ -1,4 +1,4 @@
-#Wed Sep 26 11:47:15 CAT 2018
-base.0=C\:\\Users\\user2\\Documents\\CartiqueClients\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\8
+#Thu Dec 06 11:17:09 CAT 2018
+base.0=C\:\\Users\\Pearl\\Documents\\apps\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\8
 path.0=classes.dex
 renamed.0=classes.dex

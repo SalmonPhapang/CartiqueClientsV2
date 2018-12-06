@@ -62,4 +62,12 @@
     <string name="action_details">Track Order</string>
     <string name="search_hint">Type name…</string>
     <string name="text_schedule_logbook">Scheduled Date for : </string>
+    <string-array name="status_array">
+        <item>Initiated</item>
+        <item>Preparation</item>
+        <item>in Progress</item>
+        <item>Finished</item>
+        <item>Collection</item>
+        <item>Collected</item>
+    </string-array>
 </resources>

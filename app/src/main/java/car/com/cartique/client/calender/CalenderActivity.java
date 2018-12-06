@@ -104,16 +104,19 @@ public class CalenderActivity extends AppCompatActivity {
                             @Override
                             public void onDayClick(EventDay eventDay) {
                                 Calendar clickedDayCalendar = eventDay.getCalendar();
+                                boolean isDateFound = false;
                                 for (EventDay day:events){
                                     if (clickedDayCalendar.getTime().toString().equalsIgnoreCase(day.getCalendar().getTime().toString())){
                                         txtName.setText(eventNames.get(events.indexOf(day)));
                                         txtDate.setText(day.getCalendar().getTime().toString());
                                         noEventLayout.setVisibility(View.GONE);
                                         eventLayout.setVisibility(View.VISIBLE);
-                                    }/*else {
-                                        noEventLayout.setVisibility(View.VISIBLE);
-                                        eventLayout.setVisibility(View.GONE);
-                                    }*/
+                                        isDateFound = true;
+                                    }
+                                }
+                                if (!isDateFound){
+                                    noEventLayout.setVisibility(View.VISIBLE);
+                                    eventLayout.setVisibility(View.GONE);
                                 }
                             }
                         });

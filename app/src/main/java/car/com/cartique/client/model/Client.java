@@ -14,6 +14,7 @@ public class Client implements Serializable {
     private String imageUrl;
     private String bio;
     private String userID;
+    private String notificationID;
     private List<String> topics;
 
 
@@ -110,6 +111,14 @@ public class Client implements Serializable {
 
     public void setUserID(String userID) {
         this.userID = userID;
+    }
+
+    public String getNotificationID() {
+        return notificationID;
+    }
+
+    public void setNotificationID(String notificationID) {
+        this.notificationID = notificationID;
     }
 
     @Override

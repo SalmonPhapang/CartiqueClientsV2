@@ -14,7 +14,7 @@
         android:fontFamily="sans-serif-medium"
         android:textAppearance="?android:textAppearanceLarge"
         android:textColor="@color/colorAccent"
-        android:textSize="@dimen/_12sdp"
+        android:textSize="@dimen/_11sdp"
         android:text="Logged-in: salmon  " />
     <GridView
         android:id="@+id/grid_view_image_text"

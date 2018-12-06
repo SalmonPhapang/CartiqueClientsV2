@@ -12,38 +12,38 @@ public final class R {
     public static final class attr {
         private attr() {}
 
-        public static final int rv_alpha = 0x7f0401c2;
-        public static final int rv_centered = 0x7f0401c3;
-        public static final int rv_color = 0x7f0401c4;
-        public static final int rv_framerate = 0x7f0401c5;
-        public static final int rv_rippleDuration = 0x7f0401c6;
-        public static final int rv_ripplePadding = 0x7f0401c7;
-        public static final int rv_type = 0x7f0401c8;
-        public static final int rv_zoom = 0x7f0401c9;
-        public static final int rv_zoomDuration = 0x7f0401ca;
-        public static final int rv_zoomScale = 0x7f0401cb;
+        public static final int rv_alpha = 0x7f04020c;
+        public static final int rv_centered = 0x7f04020d;
+        public static final int rv_color = 0x7f04020e;
+        public static final int rv_framerate = 0x7f04020f;
+        public static final int rv_rippleDuration = 0x7f040210;
+        public static final int rv_ripplePadding = 0x7f040211;
+        public static final int rv_type = 0x7f040212;
+        public static final int rv_zoom = 0x7f040213;
+        public static final int rv_zoomDuration = 0x7f040214;
+        public static final int rv_zoomScale = 0x7f040215;
     }
     public static final class color {
         private color() {}
 
-        public static final int rippelColor = 0x7f0600a5;
+        public static final int rippelColor = 0x7f0600c1;
     }
     public static final class id {
         private id() {}
 
-        public static final int doubleRipple = 0x7f090082;
-        public static final int rectangle = 0x7f090124;
-        public static final int simpleRipple = 0x7f09014e;
+        public static final int doubleRipple = 0x7f090086;
+        public static final int rectangle = 0x7f090135;
+        public static final int simpleRipple = 0x7f090160;
     }
     public static final class style {
         private style() {}
 
-        public static final int AppTheme = 0x7f0f000b;
+        public static final int AppTheme = 0x7f10000b;
     }
     public static final class styleable {
         private styleable() {}
 
-        public static final int[] RippleView = { 0x7f0401c2, 0x7f0401c3, 0x7f0401c4, 0x7f0401c5, 0x7f0401c6, 0x7f0401c7, 0x7f0401c8, 0x7f0401c9, 0x7f0401ca, 0x7f0401cb };
+        public static final int[] RippleView = { 0x7f04020c, 0x7f04020d, 0x7f04020e, 0x7f04020f, 0x7f040210, 0x7f040211, 0x7f040212, 0x7f040213, 0x7f040214, 0x7f040215 };
         public static final int RippleView_rv_alpha = 0;
         public static final int RippleView_rv_centered = 1;
         public static final int RippleView_rv_color = 2;

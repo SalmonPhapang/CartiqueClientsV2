@@ -4,5 +4,7 @@ public enum OrderStatus {
     INITIATED,
     PREPARATION,
     INPROGRESS,
-    DONE
+    FINISHED,
+    COLLECTION,
+    COLLECTED
 }

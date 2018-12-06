@@ -5,40 +5,45 @@ import android.os.Bundle;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.AppCompatButton;
+import android.support.v7.widget.AppCompatImageView;
 import android.support.v7.widget.Toolbar;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
-import android.widget.Switch;
+import android.widget.ProgressBar;
+import android.widget.Spinner;
 import android.widget.TextView;
-
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.jaredrummler.materialspinner.MaterialSpinner;
-import com.transferwise.sequencelayout.SequenceStep;
-
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import car.com.cartique.client.custom.CustomSpinner;
 import car.com.cartique.client.model.Order;
 import car.com.cartique.client.model.OrderStatus;
-
-import static car.com.cartique.client.model.OrderStatus.INITIATED;
 
 public class OrderStatusActivity extends AppCompatActivity {
 private TextView txtStatusClientName;
 private TextView txtStatusOrderNumber;
-private SequenceStep statusDoneSequenceStep;
-    private SequenceStep statusInitialSequenceStep;
-    private SequenceStep statusProgressSequenceStep;
-    private SequenceStep statusPreparingSequenceStep;
 private DatabaseReference databaseReference;
 private OrderStatus status;
+private ProgressBar initiatedHorizontalProgressbar;
+private ProgressBar preparationHorizontalProgressbar;
+private ProgressBar inprogressHorizontalProgressbar;
+private ProgressBar finishedHorizontalProgressbar;
+private ProgressBar collectionHorizontalProgressbar;
+private ProgressBar collectedHorizontalProgressbar;
+
+private ProgressBar initiatedCurcularProgressbar;
+private ProgressBar preparationCurcularProgressbar;
+private ProgressBar inprogressCurcularProgressbar;
+private ProgressBar finishedCurcularProgressbar;
+private ProgressBar collectionCurcularProgressbar;
+private ProgressBar collectedCurcularProgressbar;
+
+private AppCompatImageView initialStatusActive;
+private AppCompatImageView inprogressStatusActive;
+private AppCompatImageView preparationStatusActive;
+private AppCompatImageView finishedStatusActive;
+private AppCompatImageView collectionStatusActive;
+private AppCompatImageView collectedStatusActive;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,51 +53,105 @@ private OrderStatus status;
         setSupportActionBar(toolbar);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setTitle(R.string.title_order_status);
         databaseReference = FirebaseDatabase.getInstance().getReference();
         txtStatusClientName = findViewById(R.id.txtstatusClientName);
         txtStatusOrderNumber = findViewById(R.id.txtstatusOrderNumber);
-        statusDoneSequenceStep = findViewById(R.id.statusDoneSequenceStep);
-        statusInitialSequenceStep = findViewById(R.id.statusInitialSequenceStep);
-        statusPreparingSequenceStep = findViewById(R.id.statusPreparationSequenceStep);
-        statusProgressSequenceStep = findViewById(R.id.statusInProgressSequenceStep);
         Intent i = getIntent();
         final Order order = (Order)i.getSerializableExtra("Order");
         txtStatusOrderNumber.setText(order.getOrderNumber());
         txtStatusClientName.setText(order.getClientName());
         OrderStatus orderStatus = order.getOrderStatus();
+
+        initiatedCurcularProgressbar = findViewById(R.id.initiatedStatusCurcularProgressbar);
+        preparationHorizontalProgressbar = findViewById(R.id.preparationStatusHorizontalProgressbar);
+        inprogressHorizontalProgressbar = findViewById(R.id.inprogressHorizontalStatusProgressbar);
+        finishedHorizontalProgressbar = findViewById(R.id.finishedHorizontalStatusProgressbar);
+        collectionHorizontalProgressbar = findViewById(R.id.collectionHorizontalStatusProgressbar);
+        collectedHorizontalProgressbar = findViewById(R.id.collectedHorizontalStatusProgressbar);
+
+        preparationCurcularProgressbar = findViewById(R.id.preparationCurcularStatusProgressbar);
+        inprogressCurcularProgressbar = findViewById(R.id.inprogressCurcularStatusProgressbar);
+        finishedCurcularProgressbar = findViewById(R.id.finishedCicularStatusProgressbar);
+        collectionCurcularProgressbar = findViewById(R.id.collectionCircularStatusProgressbar);
+        collectedCurcularProgressbar = findViewById(R.id.collectedCircularStatusProgressbar);
+
+        initialStatusActive = findViewById(R.id.initialStatusActive);
+        preparationStatusActive = findViewById(R.id.preparationStatusActive);
+        inprogressStatusActive = findViewById(R.id.inprogresstatusActive);
+        finishedStatusActive = findViewById(R.id.finishedStatusActive);
+        collectionStatusActive = findViewById(R.id.collectionStatusActive);
+        collectedStatusActive = findViewById(R.id.collectedStatusActive);
+
         switch(orderStatus){
             case INITIATED:
-                statusInitialSequenceStep.setActive(true);
-                statusInitialSequenceStep.setTitleTextAppearance(R.style.TextAppearance_AppCompat_Medium);
-                break;
-            case INPROGRESS:
-                statusProgressSequenceStep.setActive(true);
-                statusProgressSequenceStep.setTitleTextAppearance(R.style.TextAppearance_AppCompat_Medium);
+                preparationHorizontalProgressbar.setIndeterminate(true);
+                initialStatusActive.setVisibility(View.VISIBLE);
                 break;
             case PREPARATION:
-                statusPreparingSequenceStep.setActive(true);
-                statusPreparingSequenceStep.setTitleTextAppearance(R.style.TextAppearance_AppCompat_Medium);
+                inprogressHorizontalProgressbar.setIndeterminate(true);
+                initialStatusActive.setVisibility(View.VISIBLE);
+                preparationStatusActive.setVisibility(View.VISIBLE);
+                preparationHorizontalProgressbar.setProgress(100);
                 break;
-            case DONE:
-                statusDoneSequenceStep.setActive(true);
-                statusDoneSequenceStep.setTitleTextAppearance(R.style.TextAppearance_AppCompat_Medium);
+            case INPROGRESS:
+                finishedHorizontalProgressbar.setIndeterminate(true);
+                initialStatusActive.setVisibility(View.VISIBLE);
+                preparationStatusActive.setVisibility(View.VISIBLE);
+                inprogressStatusActive.setVisibility(View.VISIBLE);
+                preparationHorizontalProgressbar.setProgress(100);
+                inprogressHorizontalProgressbar.setProgress(100);
+                break;
+            case FINISHED:
+                collectionHorizontalProgressbar.setIndeterminate(true);
+                initialStatusActive.setVisibility(View.VISIBLE);
+                preparationStatusActive.setVisibility(View.VISIBLE);
+                inprogressStatusActive.setVisibility(View.VISIBLE);
+                finishedStatusActive.setVisibility(View.VISIBLE);
+                preparationHorizontalProgressbar.setProgress(100);
+                inprogressHorizontalProgressbar.setProgress(100);
+                finishedHorizontalProgressbar.setProgress(100);
+                break;
+            case COLLECTION:
+                collectedHorizontalProgressbar.setIndeterminate(true);
+                initialStatusActive.setVisibility(View.VISIBLE);
+                preparationStatusActive.setVisibility(View.VISIBLE);
+                inprogressStatusActive.setVisibility(View.VISIBLE);
+                finishedStatusActive.setVisibility(View.VISIBLE);
+                collectionStatusActive.setVisibility(View.VISIBLE);
+                break;
+            case COLLECTED:
+                initialStatusActive.setVisibility(View.VISIBLE);
+                preparationStatusActive.setVisibility(View.VISIBLE);
+                inprogressStatusActive.setVisibility(View.VISIBLE);
+                finishedStatusActive.setVisibility(View.VISIBLE);
+                collectionStatusActive.setVisibility(View.VISIBLE);
+                collectedStatusActive.setVisibility(View.VISIBLE);
+                preparationHorizontalProgressbar.setProgress(100);
+                inprogressHorizontalProgressbar.setProgress(100);
+                finishedHorizontalProgressbar.setProgress(100);
+                collectionHorizontalProgressbar.setProgress(100);
                 break;
         }
 
-        MaterialSpinner spinner = (MaterialSpinner) findViewById(R.id.spinner);
-        List<String> statusList = new ArrayList<>();
-        for (OrderStatus status:OrderStatus.values()){
-            statusList.add(status.name());
-        }
-        spinner.setItems(statusList);
-        spinner.setOnItemSelectedListener(new MaterialSpinner.OnItemSelectedListener<String>() {
+        Spinner spinner = (Spinner) findViewById(R.id.spinner);
+// Create an ArrayAdapter using the string array and a default spinner layout
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
+                R.array.status_array, android.R.layout.simple_spinner_item);
+// Specify the layout to use when the list of choices appears
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+// Apply the adapter to the spinner
+        spinner.setAdapter(adapter);
+       spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+           @Override
+           public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+               Snackbar.make(view, "Clicked " + parent.getItemAtPosition(position).toString(), Snackbar.LENGTH_LONG).show();
+               status = OrderStatus.valueOf(parent.getItemAtPosition(position).toString().toUpperCase());
+           }
+           @Override
+           public void onNothingSelected(AdapterView<?> parent) {
 
-            @Override public void onItemSelected(MaterialSpinner view, int position, long id, String item) {
-                Snackbar.make(view, "Clicked " + item, Snackbar.LENGTH_LONG).show();
-                status = OrderStatus.valueOf(item);
-            }
-        });
+           }
+       });
         AppCompatButton btn_setStatus = findViewById(R.id.btn_setStatus);
         btn_setStatus.setOnClickListener(new View.OnClickListener() {
             @Override

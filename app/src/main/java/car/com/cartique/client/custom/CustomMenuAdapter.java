@@ -8,11 +8,8 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
-
-import com.bumptech.glide.Glide;
-
+import com.squareup.picasso.Picasso;
 import java.util.ArrayList;
-
 import car.com.cartique.client.QuotesActivity;
 import car.com.cartique.client.R;
 import car.com.cartique.client.RecordOrderActivity;
@@ -94,8 +91,8 @@ public class CustomMenuAdapter extends BaseAdapter {
         }
 
         viewHolder.title.setText(menuItemList.get(position).getTitle() + "");
-        Glide.with(context.getApplicationContext()).load(menuItemList.get(position).getMenuIcon()).into(viewHolder.menuIcon);
-
+        //Glide.with(context.getApplicationContext()).load(menuItemList.get(position).getMenuIcon()).into(viewHolder.menuIcon);
+        Picasso.with(context.getApplicationContext()).load(menuItemList.get(position).getMenuIcon()).into(viewHolder.menuIcon);
         return rowView;
 
 
