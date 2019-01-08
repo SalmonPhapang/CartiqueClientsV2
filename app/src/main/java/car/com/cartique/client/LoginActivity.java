@@ -5,7 +5,6 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.annotation.NonNull;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
 import android.view.View;
@@ -13,6 +12,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.Toast;
+
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
@@ -25,11 +25,14 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.GenericTypeIndicator;
 import com.google.firebase.database.ValueEventListener;
+import com.google.firebase.iid.FirebaseInstanceId;
+import com.google.firebase.iid.InstanceIdResult;
 import com.google.gson.Gson;
+
 import java.util.Map;
+
 import car.com.cartique.client.app.Config;
 import car.com.cartique.client.model.Client;
-import car.com.cartique.client.model.User;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -38,6 +41,7 @@ public class LoginActivity extends AppCompatActivity {
     private DatabaseReference databaseReference;
     private ProgressBar progressBar;
     private Button btnSignup, btnLogin, btnReset;
+    private String token;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -132,15 +136,25 @@ public class LoginActivity extends AppCompatActivity {
                                                 for (Client client:user.values()) {
                                                     logInUser = client;
                                                 }
-                                                Gson gson = new Gson();
-                                                String userString = gson.toJson(logInUser);
-                                                storeUserObjInPref(userString);
-                                                SharedPreferences pref =  PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
-                                                final String token = pref.getString("regId","");
                                                 String uniqueKey = null;
                                                 for (String key : user.keySet()){
                                                     uniqueKey = key;
                                                 }
+                                                logInUser.setUniqueID(uniqueKey);
+                                                Gson gson = new Gson();
+                                                String userString = gson.toJson(logInUser);
+                                                storeUserObjInPref(userString);
+                                                FirebaseInstanceId.getInstance().getInstanceId().addOnSuccessListener(LoginActivity.this,  new OnSuccessListener<InstanceIdResult>() {
+                                                    @Override
+                                                    public void onSuccess(InstanceIdResult instanceIdResult) {
+                                                        String newToken = instanceIdResult.getToken();
+                                                        token = newToken;
+                                                    }
+                                                });
+                                                SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
+                                                if (token == null || token.equalsIgnoreCase(" "))
+                                                    token =  preferences.getString(Config.NOTIFICATION_TOKEN," ");
+
                                                 databaseReference.child(dataSnapshot.getKey()).child(uniqueKey).child("NotificationID").setValue(token).addOnSuccessListener(new OnSuccessListener<Void>() {
                                                     @Override
                                                     public void onSuccess(Void aVoid) {

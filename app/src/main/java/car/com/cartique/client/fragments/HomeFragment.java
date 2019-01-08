@@ -13,9 +13,8 @@ import android.widget.TextView;
 
 import com.google.gson.Gson;
 
-import org.w3c.dom.Text;
-
 import java.util.ArrayList;
+
 import car.com.cartique.client.R;
 import car.com.cartique.client.app.Config;
 import car.com.cartique.client.custom.CustomMenuAdapter;
@@ -42,7 +41,7 @@ public class HomeFragment extends Fragment {
         gridMenuArrayList.add(new GridMenu("Service", R.mipmap.ic_menu_repair_circular));
         gridMenuArrayList.add(new GridMenu("Paint", R.mipmap.ic_menu_paint_circular));
         gridMenuArrayList.add(new GridMenu("Profile", R.mipmap.ic_menu_user_circular));
-        gridMenuArrayList.add(new GridMenu("Calender", R.mipmap.ic_calender_circular));
+        gridMenuArrayList.add(new GridMenu("Calender", R.mipmap.ic_menu_calender_circular));
         gridMenuArrayList.add(new GridMenu("About", R.mipmap.ic_menu_help_circular));
         gridMenuArrayList.add(new GridMenu("Search", R.mipmap.ic_menu_search_circular));
 

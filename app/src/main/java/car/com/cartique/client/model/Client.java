@@ -14,9 +14,17 @@ public class Client implements Serializable {
     private String imageUrl;
     private String bio;
     private String userID;
-    private String notificationID;
+    private String NotificationID;
+    private String email;
+    private String cellNumber;
+    private String website;
     private List<String> topics;
-
+    private String serviceType;
+    private String paintType;
+    private String repairType;
+    private String guarantee;
+    private String group;
+    private String uniqueID;
 
     public Client(String name, String address, String surburb, String city, String latitude, String longitude, String imageUrl, String bio) {
         this.name = name;
@@ -112,28 +120,80 @@ public class Client implements Serializable {
     public void setUserID(String userID) {
         this.userID = userID;
     }
-
     public String getNotificationID() {
-        return notificationID;
+        return NotificationID;
     }
 
     public void setNotificationID(String notificationID) {
-        this.notificationID = notificationID;
+        NotificationID = notificationID;
+    }
+    public String getEmail() {
+        return email;
     }
 
-    @Override
-    public String toString() {
-        return "Client{" +
-                "name='" + name + '\'' +
-                ", address='" + address + '\'' +
-                ", suburb='" + suburb + '\'' +
-                ", city='" + city + '\'' +
-                ", latitude='" + latitude + '\'' +
-                ", longitude='" + longitude + '\'' +
-                ", imageUrl='" + imageUrl + '\'' +
-                ", bio='" + bio + '\'' +
-                ", userID='" + userID + '\'' +
-                ", topics=" + topics +
-                '}';
+    public void setEmail(String email) {
+        this.email = email;
     }
+
+    public String getCellNumber() {
+        return cellNumber;
+    }
+
+    public void setCellNumber(String cellNumber) {
+        this.cellNumber = cellNumber;
+    }
+
+    public String getWebsite() {
+        return website;
+    }
+
+    public void setWebsite(String website) {
+        this.website = website;
+    }
+    public String getServiceType() {
+        return serviceType;
+    }
+
+    public void setServiceType(String serviceType) {
+        this.serviceType = serviceType;
+    }
+
+    public String getPaintType() {
+        return paintType;
+    }
+
+    public void setPaintType(String paintType) {
+        this.paintType = paintType;
+    }
+
+    public String getRepairType() {
+        return repairType;
+    }
+
+    public void setRepairType(String repairType) {
+        this.repairType = repairType;
+    }
+
+    public String getGuarantee() {
+        return guarantee;
+    }
+
+    public void setGuarantee(String guarantee) {
+        this.guarantee = guarantee;
+    }
+    public String getGroup() {
+        return group;
+    }
+
+    public void setGroup(String group) {
+        this.group = group;
+    }
+    public String getUniqueID() {
+        return uniqueID;
+    }
+
+    public void setUniqueID(String uniqueID) {
+        this.uniqueID = uniqueID;
+    }
+
 }

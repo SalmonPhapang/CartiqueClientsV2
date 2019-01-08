@@ -2,6 +2,7 @@ package car.com.cartique.client;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.AppCompatButton;
@@ -13,11 +14,18 @@ import android.widget.ArrayAdapter;
 import android.widget.ProgressBar;
 import android.widget.Spinner;
 import android.widget.TextView;
+
 import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+
+import car.com.cartique.client.app.Config;
 import car.com.cartique.client.model.Order;
 import car.com.cartique.client.model.OrderStatus;
+import car.com.cartique.client.utility.NotificationGenerator;
 
 public class OrderStatusActivity extends AppCompatActivity {
 private TextView txtStatusClientName;
@@ -165,7 +173,19 @@ private AppCompatImageView collectedStatusActive;
                             @Override
                             public void onSuccess(Void aVoid) {
                                 Snackbar.make(v, "New Status has been set to "+order.getOrderStatus().name(), Snackbar.LENGTH_LONG).show();
+                                databaseReference.child(Config.LEGACY_KEY).addListenerForSingleValueEvent(new ValueEventListener() {
+                                    @Override
+                                    public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                                        NotificationGenerator notificationGenerator = new NotificationGenerator();
+                                        String message =  notificationGenerator.getFCMNotificationMessage(order,"Cartique",Config.STATUS_CHANGE_MESSAGE);
+                                        String key = (String)dataSnapshot.getValue();
+                                        notificationGenerator.sendMessageToFcm(message,key);
+                                    }
+                                    @Override
+                                    public void onCancelled(@NonNull DatabaseError databaseError) {
 
+                                    }
+                                });
                             }
                         });
                     } else {

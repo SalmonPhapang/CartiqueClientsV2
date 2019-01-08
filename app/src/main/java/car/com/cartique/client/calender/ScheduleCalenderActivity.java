@@ -1,32 +1,31 @@
 package car.com.cartique.client.calender;
 
-        import android.app.ProgressDialog;
-        import android.content.Intent;
-        import android.os.Bundle;
-        import android.support.annotation.NonNull;
-        import android.support.design.widget.Snackbar;
-        import android.support.v7.app.AppCompatActivity;
-        import android.support.v7.widget.AppCompatButton;
-        import android.support.v7.widget.Toolbar;
-        import android.view.View;
-        import android.widget.ProgressBar;
+import android.app.ProgressDialog;
+import android.content.Intent;
+import android.os.Bundle;
+import android.support.annotation.NonNull;
+import android.support.design.widget.Snackbar;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.AppCompatButton;
+import android.support.v7.widget.Toolbar;
+import android.view.View;
 
-        import com.applandeo.materialcalendarview.CalendarView;
-        import com.applandeo.materialcalendarview.exceptions.OutOfDateRangeException;
-        import com.google.android.gms.tasks.OnSuccessListener;
-        import com.google.firebase.database.DataSnapshot;
-        import com.google.firebase.database.DatabaseError;
-        import com.google.firebase.database.DatabaseReference;
-        import com.google.firebase.database.FirebaseDatabase;
-        import com.google.firebase.database.ValueEventListener;
+import com.applandeo.materialcalendarview.CalendarView;
+import com.applandeo.materialcalendarview.exceptions.OutOfDateRangeException;
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
-        import java.util.Calendar;
-        import java.util.Date;
-        import java.util.List;
+import java.util.Calendar;
+import java.util.List;
 
-        import car.com.cartique.client.R;
-        import car.com.cartique.client.model.Order;
-        import car.com.cartique.client.utility.NotificationGenerator;
+import car.com.cartique.client.R;
+import car.com.cartique.client.app.Config;
+import car.com.cartique.client.model.Order;
+import car.com.cartique.client.utility.NotificationGenerator;
 
 public class ScheduleCalenderActivity extends AppCompatActivity {
     CalendarView calendarView;
@@ -85,13 +84,13 @@ public class ScheduleCalenderActivity extends AppCompatActivity {
         }
     }
     public void sendNotificationMessage(final Order order){
-        databaseReference.child("LegacyKey").addListenerForSingleValueEvent(new ValueEventListener() {
+        databaseReference.child(Config.LEGACY_KEY).addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 String legacyKey = (String)dataSnapshot.getValue();
                 NotificationGenerator notificationGenerator = new NotificationGenerator();
-                String message = notificationGenerator.getFCMNotificationMessage(order,"Cartique","Service Date Schedule");
-                notificationGenerator.sendMessageToFcm(legacyKey,message);
+                String message = notificationGenerator.getFCMNotificationMessage(order,"Cartique",Config.DATES_SCHEDUAL);
+                notificationGenerator.sendMessageToFcm(message,legacyKey);
             }
             @Override
             public void onCancelled(@NonNull DatabaseError databaseError) {

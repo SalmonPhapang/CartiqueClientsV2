@@ -22,6 +22,7 @@ import com.google.firebase.database.ValueEventListener;
 import com.google.gson.Gson;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
@@ -29,7 +30,6 @@ import car.com.cartique.client.adapter.QuoteListAdapter;
 import car.com.cartique.client.app.Config;
 import car.com.cartique.client.model.Client;
 import car.com.cartique.client.model.Order;
-import car.com.cartique.client.model.OrderType;
 
 public class QuotesActivity extends AppCompatActivity {
     private RecyclerView recyclerView;
@@ -78,6 +78,8 @@ public class QuotesActivity extends AppCompatActivity {
                         newOrder.setOrderID(key);
                         ordersList.add(newOrder);
                     }
+                    Collections.sort(ordersList);
+                    Collections.reverse(ordersList);
                     layoutNoData.setVisibility(View.GONE);
                     listAdapter.notifyDataSetChanged();
                     bar.setVisibility(View.GONE);

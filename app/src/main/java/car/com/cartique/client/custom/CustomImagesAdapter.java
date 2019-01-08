@@ -2,6 +2,8 @@ package car.com.cartique.client.custom;
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,17 +11,10 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.bumptech.glide.Glide;
-
 import java.util.ArrayList;
 
-import car.com.cartique.client.QuotesActivity;
 import car.com.cartique.client.R;
-import car.com.cartique.client.RecordOrderActivity;
-import car.com.cartique.client.SearchableActivity;
-import car.com.cartique.client.UserProfileActivity;
-import car.com.cartique.client.about.AboutActivity;
-import car.com.cartique.client.calender.CalenderActivity;
+import car.com.cartique.client.images.EnlargeImageActivity;
 import car.com.cartique.client.model.GridMenu;
 
 public class CustomImagesAdapter extends BaseAdapter {
@@ -65,11 +60,18 @@ public class CustomImagesAdapter extends BaseAdapter {
         }
         viewHolder.title.setText(menuItemList.get(position).getTitle() + "");
         if (menuItemList.get(position).getBytes().length != 0){
-            Glide.with(context.getApplicationContext())
-                    .load(menuItemList.get(position).getBytes())
-                    .into(viewHolder.menuIcon);
-        }else {
-            Glide.with(context.getApplicationContext()).load(menuItemList.get(position).getMenuIcon()).into(viewHolder.menuIcon);
+            Bitmap bmp = BitmapFactory.decodeByteArray(menuItemList.get(position).getBytes(), 0, menuItemList.get(position).getBytes().length);
+
+            viewHolder.menuIcon.setImageBitmap(Bitmap.createScaledBitmap(bmp,  viewHolder.menuIcon.getWidth(),
+                    viewHolder.menuIcon.getHeight(), false));
+            viewHolder.menuIcon.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent enlargeImageIntent = new Intent(context,EnlargeImageActivity.class);
+                    enlargeImageIntent.putExtra("enlarged_Image",menuItemList.get(position).getBytes());
+                    context.startActivity(enlargeImageIntent);
+                }
+            });
         }
         return rowView;
     }

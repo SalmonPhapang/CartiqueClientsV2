@@ -13,7 +13,9 @@ import com.danielstone.materialaboutlibrary.model.MaterialAboutCard;
 import com.danielstone.materialaboutlibrary.model.MaterialAboutList;
 import com.mikepenz.aboutlibraries.Libs;
 import com.mikepenz.aboutlibraries.LibsBuilder;
+
 import car.com.cartique.client.R;
+import car.com.cartique.client.UserProfileActivity;
 
 public class AboutActivity extends MaterialAboutActivity {
 
@@ -75,6 +77,18 @@ public class AboutActivity extends MaterialAboutActivity {
                     @Override
                     public void onClick() {
                         Intent termsIntent = new Intent(getApplicationContext(),TermsActivity.class);
+                        startActivity(termsIntent);
+                    }
+                })
+                .build());
+
+        appPrivacyCardBuilder.addItem(new MaterialAboutActionItem.Builder()
+                .text("Settings")
+                .icon(R.mipmap.ic_about_settings)
+                .setOnClickAction(new MaterialAboutItemOnClickAction() {
+                    @Override
+                    public void onClick() {
+                        Intent termsIntent = new Intent(getApplicationContext(),UserProfileActivity.class);
                         startActivity(termsIntent);
                     }
                 })

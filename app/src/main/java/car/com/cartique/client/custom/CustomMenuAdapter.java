@@ -8,13 +8,16 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+
 import com.squareup.picasso.Picasso;
+
 import java.util.ArrayList;
+
 import car.com.cartique.client.QuotesActivity;
 import car.com.cartique.client.R;
 import car.com.cartique.client.RecordOrderActivity;
 import car.com.cartique.client.SearchableActivity;
-import car.com.cartique.client.UserProfileActivity;
+import car.com.cartique.client.UserProfileFullActivity;
 import car.com.cartique.client.about.AboutActivity;
 import car.com.cartique.client.calender.CalenderActivity;
 import car.com.cartique.client.model.GridMenu;
@@ -63,7 +66,7 @@ public class CustomMenuAdapter extends BaseAdapter {
                 public void onClick(View view) {
                     switch (menuItemList.get(position).getTitle()) {
                         case "Profile":
-                            context.startActivity(new Intent(context.getApplicationContext(), UserProfileActivity.class));
+                            context.startActivity(new Intent(context.getApplicationContext(), UserProfileFullActivity.class));
                             break;
                         case "Service":
                             context.startActivity(new Intent(context.getApplicationContext(), RecordOrderActivity.class));

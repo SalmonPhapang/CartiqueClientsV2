@@ -6,20 +6,26 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Filter;
+import android.widget.Filterable;
 import android.widget.TextView;
+
 import com.android.volley.toolbox.ImageLoader;
+
+import java.util.ArrayList;
 import java.util.List;
+
 import car.com.cartique.client.R;
 import car.com.cartique.client.RecordOrderDetails;
 import car.com.cartique.client.app.AppController;
 import car.com.cartique.client.model.Order;
 
-public class RecordsListAdapter extends RecyclerView.Adapter<RecordsListAdapter.ViewHolder> {
+public class RecordsListAdapter extends RecyclerView.Adapter<RecordsListAdapter.ViewHolder> implements Filterable {
     ImageLoader imageLoader = AppController.getInstance().getImageLoader();
     private Activity activity;
     private List<Order> orderItems;
     private ViewHolder holder;
-
+    private List<Order> orderListFiltered;
     private View v;
 
     public RecordsListAdapter(Activity activity, List<Order> orderItems) {
@@ -73,7 +79,38 @@ public class RecordsListAdapter extends RecyclerView.Adapter<RecordsListAdapter.
     public void onAttachedToRecyclerView(RecyclerView recyclerView) {
         super.onAttachedToRecyclerView(recyclerView);
     }
+    @Override
+    public Filter getFilter() {
+        return new Filter() {
+            @Override
+            protected FilterResults performFiltering(CharSequence charSequence) {
+                String charString = charSequence.toString();
+                if (charString.isEmpty()) {
+                    orderListFiltered = orderItems;
+                } else {
+                    List<Order> filteredList = new ArrayList<>();
+                    for (Order row : orderItems) {
+                        // name match condition. this might differ depending on your requirement
+                        // here we are looking for name or city number match
+                        if (row.getUserName().toLowerCase().contains(charString.toLowerCase()) || row.getOrderNumber().contains(charSequence)) {
+                            filteredList.add(row);
+                        }
+                    }
+                    orderListFiltered = filteredList;
+                }
 
+                FilterResults filterResults = new FilterResults();
+                filterResults.values = orderListFiltered;
+                return filterResults;
+            }
+
+            @Override
+            protected void publishResults(CharSequence charSequence, FilterResults filterResults) {
+                orderListFiltered = (ArrayList<Order>) filterResults.values;
+                notifyDataSetChanged();
+            }
+        };
+    }
     public void insert(int position, Order data) {
         orderItems.add(position, data);
         notifyItemInserted(position);

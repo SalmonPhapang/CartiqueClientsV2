@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:2:1-159:12
-INJECTED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:2:1-159:12
-INJECTED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:2:1-159:12
-INJECTED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:2:1-159:12
+ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:2:1-176:12
+INJECTED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:2:1-176:12
+INJECTED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:2:1-176:12
+INJECTED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:2:1-176:12
 MERGED from [:material-Calender] C:\Users\Pearl\Documents\apps\material-Calender\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-17:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Pearl\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\b7a7bf538477e14e6d79bc0756c2a899\AndroidManifest.xml:2:1-11:12
 MERGED from [com.github.clans:fab:1.6.4] C:\Users\Pearl\.gradle\caches\transforms-1\files-1.1\fab-1.6.4.aar\8a00ac5d7ed7c45ca363dd406bbf808c\AndroidManifest.xml:2:1-14:12
@@ -82,22 +82,22 @@ MERGED from [com.google.firebase:firebase-database-collection:16.0.1] C:\Users\P
 MERGED from [pl.charmas.android:android-reactive-location2:2.1] C:\Users\Pearl\.gradle\caches\transforms-1\files-1.1\android-reactive-location2-2.1.aar\1f0ea1b1ad9ea1c43a9af09879fdb882\AndroidManifest.xml:2:1-12:12
 MERGED from [io.reactivex.rxjava2:rxandroid:2.0.2] C:\Users\Pearl\.gradle\caches\transforms-1\files-1.1\rxandroid-2.0.2.aar\d44b4e175e61d4449baabe65c4a1abd8\AndroidManifest.xml:15:1-21:12
 MERGED from [nl.littlerobots.rxlint:rxlint:1.6.1] C:\Users\Pearl\.gradle\caches\transforms-1\files-1.1\rxlint-1.6.1.aar\151a75ee205e513976429388154731d8\AndroidManifest.xml:2:1-13:12
-INJECTED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:2:1-159:12
-INJECTED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:2:1-159:12
-INJECTED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:2:1-159:12
+INJECTED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:2:1-176:12
+INJECTED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:2:1-176:12
+INJECTED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:2:1-176:12
 	package
 		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:4:5-38
 		INJECTED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:2:1-159:12
+		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:2:1-176:12
 		INJECTED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:2:1-159:12
+		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:2:1-176:12
 		INJECTED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:2:11-69
@@ -170,7 +170,7 @@ ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:23:5-6
 	android:name
 		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:23:22-63
 application
-ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:25:5-157:19
+ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:25:5-174:19
 MERGED from [:material-Calender] C:\Users\Pearl\Documents\apps\material-Calender\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:5-15:19
 MERGED from [:material-Calender] C:\Users\Pearl\Documents\apps\material-Calender\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:5-15:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Pearl\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\b7a7bf538477e14e6d79bc0756c2a899\AndroidManifest.xml:9:5-20
@@ -254,7 +254,7 @@ MERGED from [nl.littlerobots.rxlint:rxlint:1.6.1] C:\Users\Pearl\.gradle\caches\
 	android:roundIcon
 		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:30:9-54
 	android:icon
-		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:28:9-43
+		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:28:9-54
 	android:allowBackup
 		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:27:9-35
 	android:theme
@@ -262,7 +262,7 @@ MERGED from [nl.littlerobots.rxlint:rxlint:1.6.1] C:\Users\Pearl\.gradle\caches\
 	android:name
 		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:26:9-42
 receiver#car.com.cartique.client.service.MyAlarmReceiver
-ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:33:9-35:40
+ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:33:9-35:41
 	android:process
 		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:35:13-38
 	android:name
@@ -372,119 +372,127 @@ ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:88:9-9
 	android:name
 		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:89:13-62
 activity#car.com.cartique.client.RecordOrderActivity
-ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:92:9-95:52
+ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:92:9-101:20
 	android:screenOrientation
 		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:95:13-49
 	android:label
 		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:94:13-35
 	android:name
 		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:93:13-48
+intent-filter#action:name:service_activity+category:name:android.intent.category.DEFAULT
+ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:96:13-100:29
+action#service_activity
+ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:97:17-59
+	android:name
+		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:97:25-56
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:99:17-76
+	android:name
+		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:99:27-73
 activity#car.com.cartique.client.UserProfileActivity
-ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:96:9-99:52
+ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:102:9-105:52
 	android:screenOrientation
-		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:99:13-49
+		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:105:13-49
 	android:label
-		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:98:13-36
+		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:104:13-36
 	android:name
-		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:97:13-48
+		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:103:13-48
 service#car.com.cartique.client.service.MyFirebaseMessagingService
-ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:101:9-105:19
+ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:107:9-113:19
+	android:stopWithTask
+		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:109:13-41
 	android:name
-		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:101:18-68
+		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:108:13-63
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:102:13-104:29
+ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:110:13-112:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:103:17-78
+ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:111:17-78
 	android:name
-		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:103:25-75
-service#car.com.cartique.client.service.FirebaseInstanceIDService
-ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:106:9-110:19
-	android:name
-		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:106:18-67
-intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
-ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:107:13-109:29
-action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:108:17-80
-	android:name
-		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:108:25-77
+		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:111:25-75
 meta-data#com.google.android.gms.version
-ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:112:9-114:69
+ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:115:9-117:69
 MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\Pearl\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\44c59c9f654d87fd1f13a8a4b8f20270\AndroidManifest.xml:23:9-25:69
 MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\Pearl\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\44c59c9f654d87fd1f13a8a4b8f20270\AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:114:13-66
-	android:name
-		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:113:13-58
-meta-data#com.google.android.geo.API_KEY
-ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:115:9-117:55
-	android:value
-		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:117:13-52
+		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:117:13-66
 	android:name
 		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:116:13-58
-activity#car.com.cartique.client.QuoteDetailsActivity
-ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:119:9-58
-	android:name
-		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:119:19-55
-activity#car.com.cartique.client.about.AboutActivity
-ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:120:9-122:69
-	android:theme
-		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:122:13-66
-	android:name
-		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:121:13-48
-activity#car.com.cartique.client.calender.CalenderActivity
-ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:123:9-126:52
-	android:screenOrientation
-		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:126:13-49
-	android:label
-		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:125:13-36
-	android:name
-		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:124:13-54
-activity#car.com.cartique.client.about.PrivacyPolicyActivity
-ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:127:9-130:52
-	android:screenOrientation
-		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:130:13-49
-	android:label
-		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:129:13-36
-	android:name
-		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:128:13-56
-activity#car.com.cartique.client.about.TermsActivity
-ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:131:9-134:52
-	android:screenOrientation
-		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:134:13-49
-	android:label
-		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:133:13-49
-	android:name
-		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:132:13-48
-activity#car.com.cartique.client.OrderStatusActivity
-ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:135:9-138:52
-	android:screenOrientation
-		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:138:13-49
-	android:label
-		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:137:13-41
-	android:name
-		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:136:13-48
-activity#com.schibstedspain.leku.LocationPickerActivity
-ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:139:9-155:20
-	android:parentActivityName
-		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:142:13-57
-	android:label
-		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:141:13-72
-	android:windowSoftInputMode
-		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:144:13-52
-	android:theme
-		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:143:13-69
-	android:name
-		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:140:13-74
-meta-data#android.support.PARENT_ACTIVITY
-ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:152:13-154:51
+meta-data#com.google.android.geo.API_KEY
+ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:118:9-120:55
 	android:value
-		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:154:17-48
+		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:120:13-52
 	android:name
-		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:153:17-63
+		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:119:13-58
+activity#car.com.cartique.client.QuoteDetailsActivity
+ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:122:9-58
+	android:name
+		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:122:19-55
+activity#car.com.cartique.client.about.AboutActivity
+ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:123:9-125:69
+	android:theme
+		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:125:13-66
+	android:name
+		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:124:13-48
+activity#car.com.cartique.client.calender.CalenderActivity
+ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:126:9-129:52
+	android:screenOrientation
+		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:129:13-49
+	android:label
+		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:128:13-36
+	android:name
+		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:127:13-54
+activity#car.com.cartique.client.about.PrivacyPolicyActivity
+ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:130:9-133:52
+	android:screenOrientation
+		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:133:13-49
+	android:label
+		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:132:13-36
+	android:name
+		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:131:13-56
+activity#car.com.cartique.client.about.TermsActivity
+ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:134:9-137:52
+	android:screenOrientation
+		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:137:13-49
+	android:label
+		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:136:13-49
+	android:name
+		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:135:13-48
+activity#car.com.cartique.client.OrderStatusActivity
+ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:138:9-141:52
+	android:screenOrientation
+		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:141:13-49
+	android:label
+		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:140:13-41
+	android:name
+		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:139:13-48
+activity#car.com.cartique.client.UserProfileFullActivity
+ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:142:9-145:52
+	android:screenOrientation
+		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:145:13-49
+	android:label
+		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:144:13-36
+	android:name
+		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:143:13-52
 activity#car.com.cartique.client.images.ViewImagesActivity
-ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:156:9-72
+ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:165:9-63
 	android:name
-		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:156:19-60
+		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:165:19-60
+activity#car.com.cartique.client.EditUserProfileActivity
+ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:166:9-172:20
+	android:parentActivityName
+		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:168:13-82
+	android:name
+		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:167:13-52
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:169:13-171:76
+	android:value
+		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:171:17-73
+	android:name
+		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:170:17-63
+activity#car.com.cartique.client.images.EnlargeImageActivity
+ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:173:9-74
+	android:name
+		ADDED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml:173:19-62
 uses-sdk
 INJECTED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Pearl\Documents\apps\app\src\main\AndroidManifest.xml
@@ -805,6 +813,14 @@ ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Pearl\.gradle\cach
 		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Pearl\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\d73443a8e34750fb30466bbde39844f5\AndroidManifest.xml:52:13-36
 	android:name
 		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Pearl\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\d73443a8e34750fb30466bbde39844f5\AndroidManifest.xml:51:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Pearl\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\d73443a8e34750fb30466bbde39844f5\AndroidManifest.xml:53:13-55:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Pearl\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\d73443a8e34750fb30466bbde39844f5\AndroidManifest.xml:53:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Pearl\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\d73443a8e34750fb30466bbde39844f5\AndroidManifest.xml:54:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\Pearl\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\d73443a8e34750fb30466bbde39844f5\AndroidManifest.xml:54:25-77
 provider#com.google.firebase.provider.FirebaseInitProvider
 ADDED from [com.google.firebase:firebase-common:16.0.4] C:\Users\Pearl\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.4.aar\7feece499c087173b673ea599db0c62e\AndroidManifest.xml:10:9-14:39
 	android:authorities

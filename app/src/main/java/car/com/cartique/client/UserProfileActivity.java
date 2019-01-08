@@ -1,7 +1,9 @@
 package car.com.cartique.client;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -10,28 +12,42 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.Toast;
+
 import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.FirebaseApp;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.iid.FirebaseInstanceId;
+import com.google.firebase.iid.InstanceIdResult;
+import com.google.gson.Gson;
+
+import car.com.cartique.client.app.Config;
+import car.com.cartique.client.model.Client;
 
 public class UserProfileActivity extends AppCompatActivity {
 
-    private Button btnChangeEmail, btnChangePassword, btnSendResetEmail, btnRemoveUser,
+    private Button btnRegisterNotification, btnChangeEmail, btnChangePassword, btnSendResetEmail, btnRemoveUser,
             changeEmail, changePassword, sendEmail, remove, signOut;
 
-    private EditText oldEmail, newEmail, password, newPassword;
+    private EditText oldEmail,
+            newEmail, password, newPassword;
     private ProgressBar progressBar;
     private FirebaseAuth.AuthStateListener authListener;
     private FirebaseAuth auth;
     private Toolbar toolbar;
+    private String token;
+    private DatabaseReference databaseReference;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.user_profile_fragment);
         FirebaseApp.initializeApp(getApplicationContext());
+        databaseReference = FirebaseDatabase.getInstance().getReference();
         toolbar = findViewById(R.id.tool_bar);
         setSupportActionBar(toolbar);
         toolbar.setTitle("User Profile");
@@ -54,6 +70,7 @@ public class UserProfileActivity extends AppCompatActivity {
             }
         };
 
+        btnRegisterNotification = findViewById(R.id.register_notification_button);
         btnChangeEmail = findViewById(R.id.change_email_button);
         btnChangePassword = findViewById(R.id.change_password_button);
         btnSendResetEmail = findViewById(R.id.sending_pass_reset_button);
@@ -229,6 +246,34 @@ public class UserProfileActivity extends AppCompatActivity {
                                 }
                             });
                 }
+            }
+        });
+
+        btnRegisterNotification.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                progressBar.setVisibility(View.VISIBLE);
+                FirebaseInstanceId.getInstance().getInstanceId().addOnSuccessListener(UserProfileActivity.this,  new OnSuccessListener<InstanceIdResult>() {
+                    @Override
+                    public void onSuccess(InstanceIdResult instanceIdResult) {
+                        String newToken = instanceIdResult.getToken();
+                        token = newToken;
+                    }
+                });
+                SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
+                if (token == null || token.equalsIgnoreCase(" "))
+                        token =  preferences.getString(Config.NOTIFICATION_TOKEN," ");
+
+                String user = preferences.getString(Config.USER_OBJECT,"");
+                Gson gson = new Gson();
+                Client client = gson.fromJson(user,Client.class);
+                databaseReference.child("Clients").child(client.getUniqueID()).child("NotificationID").setValue(token).addOnSuccessListener(new OnSuccessListener<Void>() {
+                    @Override
+                    public void onSuccess(Void aVoid) {
+                        progressBar.setVisibility(View.GONE);
+                        Toast.makeText(getApplicationContext(),"Registered for Notifications",Toast.LENGTH_LONG).show();
+                    }
+                });
             }
         });
 

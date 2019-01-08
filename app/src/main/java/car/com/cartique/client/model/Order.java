@@ -1,11 +1,11 @@
 package car.com.cartique.client.model;
+
 import java.io.Serializable;
 import java.util.ArrayList;
-import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 
-public class Order implements Serializable {
+public class Order implements Serializable,Comparable {
     private Car car;
     private Date orderDate;
     private String orderID;
@@ -22,6 +22,7 @@ public class Order implements Serializable {
     List<String> logBook = new ArrayList<>();
     private ArrayList<String> uploadedImages = new ArrayList<String>();
     private String userNotificationToken;
+    private String ClientNotificationToken;
     private ArrayList<Quote> quotes = new ArrayList<Quote>();
     private ArrayList<Date> availableDates = new ArrayList<Date>();
 
@@ -122,10 +123,10 @@ public class Order implements Serializable {
     }
 
     public void setQuotes(ArrayList<Quote> quotes) {
-        if(this.quotes==null){
+        if(this.quotes == null){
             this.quotes = new ArrayList<>();
         }
-        this.quotes = quotes;
+        this.quotes.addAll(quotes);
     }
     public boolean isQuoted() {
         return quoted;
@@ -162,5 +163,16 @@ public class Order implements Serializable {
     public void setScheduledDate(Date scheduledDate) {
         this.scheduledDate = scheduledDate;
     }
+    public String getClientNotificationToken() {
+        return ClientNotificationToken;
+    }
+    public void setClientNotificationToken(String clientNotificationToken) {
+        ClientNotificationToken = clientNotificationToken;
+    }
 
+    @Override
+    public int compareTo(Object o) {
+        //DateFormat f = new SimpleDateFormat("MM/dd/yyyy '@'hh:mm a");
+        return this.getOrderDate().compareTo(((Order) o).getOrderDate());
+    }
 }

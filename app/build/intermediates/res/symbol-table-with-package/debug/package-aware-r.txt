@@ -847,6 +847,7 @@ color foreground_material_dark
 color foreground_material_light
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color ic_launcher_background
 color input_login
 color input_login_hint
 color input_register
@@ -2041,6 +2042,7 @@ drawable places_ic_clear
 drawable places_ic_search
 drawable powered_by_google_dark
 drawable powered_by_google_light
+drawable progress_background
 drawable progressbar_background
 drawable spinner_bg
 drawable spinner_sla
@@ -2071,6 +2073,7 @@ id action_bar_root
 id action_bar_spinner
 id action_bar_subtitle
 id action_bar_title
+id action_client_profile
 id action_container
 id action_context_bar
 id action_details
@@ -2093,6 +2096,7 @@ id alertTitle
 id all
 id always
 id android_custom_gridview_layout
+id android_enlarged_image
 id android_gridview_example
 id android_gridview_image
 id android_gridview_text
@@ -2101,6 +2105,7 @@ id auto
 id barrier
 id beginning
 id bio
+id bio_card_view
 id blocking
 id bottom
 id btnAccept
@@ -2118,6 +2123,7 @@ id btnSetQuote
 id btnSubmitNext
 id btnViewImages
 id btn_back
+id btn_edit_profile_sav
 id btn_login
 id btn_reset_password
 id btn_setDate
@@ -2132,6 +2138,7 @@ id calendarViewPager
 id calenderEventImage
 id cancel_action
 id cardListView
+id card_view
 id center
 id center_horizontal
 id center_vertical
@@ -2318,8 +2325,10 @@ id normal
 id notification_background
 id notification_main_column
 id notification_main_column_container
+id offering_card_view
 id old_email
 id one_day_picker
+id organisation_card_view
 id outline
 id packed
 id parallax
@@ -2357,6 +2366,7 @@ id rdbProfile
 id rdbServiceProfile
 id recordsList
 id rectangle
+id register_notification_button
 id remove
 id remove_user_button
 id resultlist
@@ -2461,8 +2471,15 @@ id txtCarMake
 id txtCarModel
 id txtCarYear
 id txtDateAndOrderType
+id txtEditAddress
+id txtEditBio
+id txtEditCellNumer
+id txtEditCity
+id txtEditGuarantee
 id txtEditLogBook
 id txtEditLogBookInput
+id txtEditSuburb
+id txtEditwebsite
 id txtFilesChosen
 id txtName
 id txtNoOrders
@@ -2475,6 +2492,16 @@ id txtPaintColor
 id txtPaintMake
 id txtPaintModel
 id txtPaintYear
+id txtProfileAddress
+id txtProfileEmail
+id txtProfileGurantee
+id txtProfileOrganisation
+id txtProfilePaint
+id txtProfilePhone
+id txtProfileRepair
+id txtProfileService
+id txtProfileWebsite
+id txtProfilebio
 id txtQuotedAmount
 id txtRegistrationCarColor
 id txtRegistrationCarMake
@@ -2486,6 +2513,7 @@ id txtServiceMake
 id txtServiceModel
 id txtServiceYear
 id txtStatusName
+id txtUserLocation
 id txtUserName
 id txt_result_msg
 id txt_schedule_date
@@ -2509,6 +2537,7 @@ id useLogo
 id userAddress
 id userName
 id userPhone
+id userProfileImage
 id userSuburb
 id userSurname
 id view_offset_helper
@@ -2569,6 +2598,8 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_calender
 layout activity_complete_sign_up
+layout activity_edit_user_profile
+layout activity_enlarge_image
 layout activity_login
 layout activity_main
 layout activity_opensource
@@ -2579,6 +2610,7 @@ layout activity_quote_order
 layout activity_reset_password
 layout activity_signup
 layout activity_terms
+layout activity_user_profile_full
 layout activity_view_images
 layout calendar_view
 layout calendar_view_day
@@ -2662,16 +2694,21 @@ layout service_booking_form_activity
 layout spinner_item_selected
 layout support_simple_spinner_dropdown_item
 layout tooltip
+layout user_profile_content_cards
+layout user_profile_edit_content
 layout user_profile_fragment
+menu client_profile_menu
 menu details_menu
 menu leku_toolbar_menu
 menu menu_main
 menu navigation
+mipmap ic_about_settings
 mipmap ic_alarm
 mipmap ic_calender_circular
 mipmap ic_event
 mipmap ic_info
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 mipmap ic_license
 mipmap ic_menu_calender_circular
@@ -2686,6 +2723,15 @@ mipmap ic_no_connection
 mipmap ic_order_icon
 mipmap ic_person
 mipmap ic_privacy
+mipmap ic_profile_city
+mipmap ic_profile_email
+mipmap ic_profile_group
+mipmap ic_profile_guarantee
+mipmap ic_profile_paint
+mipmap ic_profile_phone
+mipmap ic_profile_repair
+mipmap ic_profile_service
+mipmap ic_profile_website
 mipmap ic_question
 mipmap ic_quote
 mipmap ic_result
@@ -2735,6 +2781,7 @@ string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string aboutlibrary_lib_version
 string action_details
+string action_edit
 string action_search
 string action_settings
 string action_sign_in_short
@@ -2750,6 +2797,7 @@ string btn_link_to_register
 string btn_login
 string btn_remove
 string btn_reset_password
+string btn_save
 string btn_send
 string btn_setScheduledDates
 string btn_setStatus
@@ -5457,6 +5505,7 @@ string path_password_strike_through
 string place_autocomplete_clear_button
 string place_autocomplete_search_hint
 string project_id
+string register_notification
 string remove_user
 string search_hint
 string search_menu_title
@@ -5471,6 +5520,7 @@ string status_bar_notification_info_overflow
 string text_edit_log_book
 string text_schedule_logbook
 string title_activity_complete_sign_up
+string title_activity_edit_user_profile
 string title_activity_login
 string title_activity_profile
 string title_activity_reset_password
@@ -5698,6 +5748,7 @@ style Base_Widget_MaterialComponents_TextInputLayout
 style CardView
 style CardView_Dark
 style CardView_Light
+style CollapsingToolbar_TitleText
 style PixAppTheme
 style Platform_AppCompat
 style Platform_AppCompat_Light
@@ -5887,6 +5938,7 @@ style ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox
 style ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense
 style ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox
 style ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense
+style Toolbar_TitleText
 style Widget_AppCompat_ActionBar
 style Widget_AppCompat_ActionBar_Solid
 style Widget_AppCompat_ActionBar_TabBar

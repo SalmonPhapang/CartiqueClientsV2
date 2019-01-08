@@ -3,6 +3,7 @@ package car.com.cartique.client;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
 import android.support.design.widget.TextInputLayout;
 import android.support.v7.app.AppCompatActivity;
@@ -16,16 +17,16 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.List;
-
-import car.com.cartique.client.calender.CalenderActivity;
+import car.com.cartique.client.app.Config;
 import car.com.cartique.client.calender.ScheduleCalenderActivity;
 import car.com.cartique.client.model.Order;
+import car.com.cartique.client.utility.NotificationGenerator;
 
 public class RecordOrderDetails extends AppCompatActivity {
 private TextView txtClientName;
@@ -140,7 +141,20 @@ private TextView txtClientName;
                             @Override
                             public void onSuccess(Void aVoid) {
                                 progressBar.dismiss();
-                                Snackbar.make(v, "New Logbook data has been set for order "+order.getOrderNumber(), Snackbar.LENGTH_LONG).show();
+                                databaseReference.child(Config.LEGACY_KEY).addListenerForSingleValueEvent(new ValueEventListener() {
+                                    @Override
+                                    public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                                        NotificationGenerator notificationGenerator = new NotificationGenerator();
+                                        String message =  notificationGenerator.getFCMNotificationMessage(order,"Cartique",Config.LOGBOOK_ENTRY);
+                                        String key = (String)dataSnapshot.getValue();
+                                        notificationGenerator.sendMessageToFcm(message,key);
+                                        Snackbar.make(v, "New Logbook data has been set for order "+order.getOrderNumber(), Snackbar.LENGTH_LONG).show();
+                                    }
+                                    @Override
+                                    public void onCancelled(@NonNull DatabaseError databaseError) {
+
+                                    }
+                                });
                             }
                         });
                     } else {

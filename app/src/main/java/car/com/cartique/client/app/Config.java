@@ -23,5 +23,11 @@ public class Config {
     public static final String firebaseStrorage = "gs://cartique-1516308965713.appspot.com/";
     public static final String GENERIC_RESULT_MESSAGE = "Yey! Your Request has been submited\\nCheck Notifiction Panel for updates";
     public static final String Quote_RESULT_MESSAGE = "Yey! Your Quote has been submited\\nCheck Notifiction Panel for updates";
-
+    public static final String PROFILE_UPDATE_RESULT_MESSAGE = "Yey! Your profile has been updated";
+    public static final String STATUS_CHANGE_MESSAGE = "Vehicle status has changed";
+    public static final String LEGACY_KEY = "LegacyKey";
+    public static final String LOGBOOK_ENTRY = "New logbook entry has been added";
+    public static final String NOTIFICATION_TOKEN = "NotificationToken";
+    public static final String DATES_SCHEDUAL = "Available service Dates Scheduled";
+    public static final String QUOTATION_SET_MESSAGE = "New quote for paint job ";
 }
