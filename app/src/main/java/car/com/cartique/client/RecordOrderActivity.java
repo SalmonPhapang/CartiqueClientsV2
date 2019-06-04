@@ -19,12 +19,11 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.GenericTypeIndicator;
 import com.google.firebase.database.ValueEventListener;
 import com.google.gson.Gson;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Map;
-
+import com.bhargavms.dotloader.DotLoader;
 import car.com.cartique.client.adapter.RecordsListAdapter;
 import car.com.cartique.client.app.Config;
 import car.com.cartique.client.model.Client;
@@ -40,7 +39,7 @@ private RelativeLayout layoutWithData;
 private List<Order> ordersList = new ArrayList<>();
 private DatabaseReference databaseReference;
 private DotLoader bar;
-    private FirebaseAuth auth;
+private FirebaseAuth auth;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

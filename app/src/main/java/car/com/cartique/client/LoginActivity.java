@@ -27,6 +27,7 @@ import com.google.firebase.database.GenericTypeIndicator;
 import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.iid.FirebaseInstanceId;
 import com.google.firebase.iid.InstanceIdResult;
+import com.google.firebase.messaging.FirebaseMessaging;
 import com.google.gson.Gson;
 
 import java.util.Map;
@@ -115,6 +116,7 @@ public class LoginActivity extends AppCompatActivity {
                                     // the auth state listener will be notified and logic to handle the
                                     // signed in user can be handled in the listener.
 
+                                    progressBar.setVisibility(View.GONE);
                                     if (!task.isSuccessful()) {
                                         // there was an error
                                         if (password.length() < 6) {
@@ -131,7 +133,7 @@ public class LoginActivity extends AppCompatActivity {
                                             public void onDataChange(DataSnapshot dataSnapshot) {
                                                 GenericTypeIndicator<Map<String, Client>> genericTypeIndicator = new GenericTypeIndicator<Map<String, Client>>() {
                                                 };
-                                                Map<String, Client> user = dataSnapshot.getValue(genericTypeIndicator);
+                                                final Map<String, Client> user = dataSnapshot.getValue(genericTypeIndicator);
                                                 Client logInUser = null;
                                                 for (Client client:user.values()) {
                                                     logInUser = client;
@@ -155,10 +157,24 @@ public class LoginActivity extends AppCompatActivity {
                                                 if (token == null || token.equalsIgnoreCase(" "))
                                                     token =  preferences.getString(Config.NOTIFICATION_TOKEN," ");
 
+                                                final String topic = logInUser.getTopics().get(0);
                                                 databaseReference.child(dataSnapshot.getKey()).child(uniqueKey).child("NotificationID").setValue(token).addOnSuccessListener(new OnSuccessListener<Void>() {
                                                     @Override
                                                     public void onSuccess(Void aVoid) {
                                                         progressBar.setVisibility(View.GONE);
+                                                        if (topic.equalsIgnoreCase("Paint")) {
+                                                            FirebaseMessaging.getInstance().subscribeToTopic("Paint")
+                                                                    .addOnCompleteListener(new OnCompleteListener<Void>() {
+                                                                        @Override
+                                                                        public void onComplete(@NonNull Task<Void> task) {
+                                                                            if (!task.isSuccessful()) {
+                                                                                String msg = "Unable to subscribe to paint topic";
+                                                                                Toast.makeText(LoginActivity.this, msg, Toast.LENGTH_SHORT).show();
+                                                                            }
+
+                                                                        }
+                                                                    });
+                                                        }
                                                         Intent intent = new Intent(LoginActivity.this, MainActivity.class);
                                                         startActivity(intent);
                                                         finish();

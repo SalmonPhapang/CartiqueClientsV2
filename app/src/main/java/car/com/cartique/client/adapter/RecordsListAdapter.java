@@ -92,7 +92,7 @@ public class RecordsListAdapter extends RecyclerView.Adapter<RecordsListAdapter.
                     for (Order row : orderItems) {
                         // name match condition. this might differ depending on your requirement
                         // here we are looking for name or city number match
-                        if (row.getUserName().toLowerCase().contains(charString.toLowerCase()) || row.getOrderNumber().contains(charSequence)) {
+                        if (row.getOrderNumber().contains(charString)) {
                             filteredList.add(row);
                         }
                     }

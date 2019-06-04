@@ -1,4 +1,4 @@
-#Sat Jan 05 15:21:17 CAT 2019
-base.0=C\:\\Users\\Pearl\\Documents\\apps\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\7
+#Tue Jun 04 12:48:10 SAST 2019
+base.0=/Users/anylytical/Documents/androidProjects/Cartique/apps/app/build/intermediates/transforms/dexMerger/debug/7
 path.0=classes.dex
 renamed.0=classes.dex

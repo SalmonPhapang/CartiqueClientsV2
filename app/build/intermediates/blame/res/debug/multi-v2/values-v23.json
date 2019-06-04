@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Pearl\\Documents\\apps\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
+            "outputFile": "/Users/anylytical/Documents/androidProjects/Cartique/apps/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Pearl\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ce1fc47e4e48d4c2677ba95cd02c7800\\res\\values-v23\\values-v23.xml",
+                    "source": "/Users/anylytical/.gradle/caches/transforms-2/files-2.1/2011ed93a81ecf4ffcca52297b611d0b/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
@@ -15,7 +15,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Pearl\\.gradle\\caches\\transforms-1\\files-1.1\\cardview-v7-28.0.0.aar\\3657e984e189da82fba25ec2ca8f2e65\\res\\values-v23\\values-v23.xml",
+                    "source": "/Users/anylytical/.gradle/caches/transforms-2/files-2.1/227feb667cc4bb6b46fb1d63fe5f4d4e/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

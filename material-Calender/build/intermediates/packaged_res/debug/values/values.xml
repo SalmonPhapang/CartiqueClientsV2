@@ -26,6 +26,18 @@
     <color name="disabledDialogButtonColor">#1F000000</color>
     <color name="itemHighlightColor">#1F000000</color>
     <color name="nextMonthDayColor">#1F000000</color>
+    <dimen name="row_height">44dp</dimen>
+    <string name="app_name">Simple Calendar View</string>
+    <string name="material_calendar_friday">F</string>
+    <string name="material_calendar_monday">M</string>
+    <string name="material_calendar_negative_button">Cancel</string>
+    <string name="material_calendar_positive_button">OK</string>
+    <string name="material_calendar_saturday">S</string>
+    <string name="material_calendar_sunday">S</string>
+    <string name="material_calendar_thursday">T</string>
+    <string name="material_calendar_today_button">Today</string>
+    <string name="material_calendar_tuesday">T</string>
+    <string name="material_calendar_wednesday">W</string>
     <declare-styleable name="CalendarView">
         <attr format="color" name="headerColor"/>
         <attr format="color" name="headerLabelColor"/>
@@ -43,16 +55,4 @@
         <attr format="boolean" name="datePicker"/>
         <attr name="type"/>
     </declare-styleable>
-    <dimen name="row_height">44dp</dimen>
-    <string name="app_name">Simple Calendar View</string>
-    <string name="material_calendar_friday">F</string>
-    <string name="material_calendar_monday">M</string>
-    <string name="material_calendar_negative_button">Cancel</string>
-    <string name="material_calendar_positive_button">OK</string>
-    <string name="material_calendar_saturday">S</string>
-    <string name="material_calendar_sunday">S</string>
-    <string name="material_calendar_thursday">T</string>
-    <string name="material_calendar_today_button">Today</string>
-    <string name="material_calendar_tuesday">T</string>
-    <string name="material_calendar_wednesday">W</string>
 </resources>

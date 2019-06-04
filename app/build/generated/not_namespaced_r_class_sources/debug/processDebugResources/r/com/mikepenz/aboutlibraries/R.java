@@ -868,20 +868,20 @@ public final class R {
         public static final int abc_select_dialog_material = 0x7f0c001a;
         public static final int abc_tooltip = 0x7f0c001b;
         public static final int activity_opensource = 0x7f0c0022;
-        public static final int fragment_opensource = 0x7f0c0049;
-        public static final int listheader_opensource = 0x7f0c0050;
-        public static final int listitem_opensource = 0x7f0c0051;
-        public static final int listloader_opensource = 0x7f0c0052;
-        public static final int notification_action = 0x7f0c005c;
-        public static final int notification_action_tombstone = 0x7f0c005d;
-        public static final int notification_template_custom_big = 0x7f0c0064;
-        public static final int notification_template_icon_group = 0x7f0c0065;
-        public static final int notification_template_part_chronometer = 0x7f0c0069;
-        public static final int notification_template_part_time = 0x7f0c006a;
-        public static final int select_dialog_item_material = 0x7f0c0076;
-        public static final int select_dialog_multichoice_material = 0x7f0c0077;
-        public static final int select_dialog_singlechoice_material = 0x7f0c0078;
-        public static final int support_simple_spinner_dropdown_item = 0x7f0c007c;
+        public static final int fragment_opensource = 0x7f0c004a;
+        public static final int listheader_opensource = 0x7f0c0051;
+        public static final int listitem_opensource = 0x7f0c0052;
+        public static final int listloader_opensource = 0x7f0c0053;
+        public static final int notification_action = 0x7f0c005d;
+        public static final int notification_action_tombstone = 0x7f0c005e;
+        public static final int notification_template_custom_big = 0x7f0c0065;
+        public static final int notification_template_icon_group = 0x7f0c0066;
+        public static final int notification_template_part_chronometer = 0x7f0c006a;
+        public static final int notification_template_part_time = 0x7f0c006b;
+        public static final int select_dialog_item_material = 0x7f0c0077;
+        public static final int select_dialog_multichoice_material = 0x7f0c0078;
+        public static final int select_dialog_singlechoice_material = 0x7f0c0079;
+        public static final int support_simple_spinner_dropdown_item = 0x7f0c007d;
     }
     public static final class string {
         private string() {}

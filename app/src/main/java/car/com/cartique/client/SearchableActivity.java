@@ -50,56 +50,6 @@ public class SearchableActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-       /* setContentView(R.layout.client_search_activity);
-        FirebaseApp.initializeApp(getApplicationContext());
-        auth = FirebaseAuth.getInstance();
-        Toolbar toolbar = findViewById(R.id.tool_bar);
-        setSupportActionBar(toolbar);
-
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setTitle(R.string.title_search);
-        recyclerView = findViewById(R.id.clientSearchList);
-        listAdapter = new ClientSearchAdapter(this, clientList);
-        recyclerView.setAdapter(listAdapter);
-        linearLayoutManager = new LinearLayoutManager(getApplicationContext());
-        recyclerView.setLayoutManager(linearLayoutManager);
-        recyclerView.setHasFixedSize(true);
-        recyclerView.setItemViewCacheSize(20);
-        recyclerView.setDrawingCacheEnabled(true);
-        recyclerView.setItemAnimator(new DefaultItemAnimator());
-        recyclerView.addItemDecoration(new MyDividerItemDecoration(this, DividerItemDecoration.VERTICAL, 36));
-        bar = findViewById(R.id.prgload);
-
-        databaseReference = FirebaseDatabase.getInstance().getReference();
-
-        databaseReference.child("Clients").addListenerForSingleValueEvent(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-                GenericTypeIndicator<Map<String,Client>> genericTypeIndicator = new GenericTypeIndicator<Map<String,Client>>() {
-                };
-                Map<String,Client> clients = dataSnapshot.getValue(genericTypeIndicator);
-
-                for (Client client :   clients.values()) {
-                    Client item = new Client();
-                    item.setName(client.getName());
-                    item.setAddress(client.getAddress());
-                    item.setCity(client.getCity());
-                    item.setSuburb(client.getSuburb());
-                    item.setImageUrl(client.getImageUrl());
-                    item.setLatitude(client.getLatitude());
-                    item.setLongitude(client.getLongitude());
-                    item.setBio(client.getBio());
-                    item.setUserID(client.getUserID());
-                    clientList.add(item);
-                }
-                listAdapter.notifyDataSetChanged();
-                bar.setVisibility(View.GONE);
-            }
-
-            @Override
-            public void onCancelled(DatabaseError databaseError) {
-            }
-        });*/
         setContentView(R.layout.activity_orders);
         FirebaseApp.initializeApp(getApplicationContext());
         auth = FirebaseAuth.getInstance();

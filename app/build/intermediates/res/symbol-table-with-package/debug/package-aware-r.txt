@@ -2608,6 +2608,7 @@ layout activity_orders
 layout activity_quote_details
 layout activity_quote_order
 layout activity_reset_password
+layout activity_search
 layout activity_signup
 layout activity_terms
 layout activity_user_profile_full

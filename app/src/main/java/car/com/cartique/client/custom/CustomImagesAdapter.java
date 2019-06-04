@@ -61,15 +61,15 @@ public class CustomImagesAdapter extends BaseAdapter {
         viewHolder.title.setText(menuItemList.get(position).getTitle() + "");
         if (menuItemList.get(position).getBytes().length != 0){
             Bitmap bmp = BitmapFactory.decodeByteArray(menuItemList.get(position).getBytes(), 0, menuItemList.get(position).getBytes().length);
-
-            viewHolder.menuIcon.setImageBitmap(Bitmap.createScaledBitmap(bmp,  viewHolder.menuIcon.getWidth(),
-                    viewHolder.menuIcon.getHeight(), false));
+            viewHolder.menuIcon.setImageBitmap(bmp);
             viewHolder.menuIcon.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     Intent enlargeImageIntent = new Intent(context,EnlargeImageActivity.class);
                     enlargeImageIntent.putExtra("enlarged_Image",menuItemList.get(position).getBytes());
+                    enlargeImageIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                     context.startActivity(enlargeImageIntent);
+
                 }
             });
         }
